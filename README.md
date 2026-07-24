@@ -1,1254 +1,1122 @@
-<!--
-  DIAVLO WAV — README oficial bilingüe de publicaciones
-  Coloca este archivo en: Nikolai-coder/diavlo-wav-releases/README.md
--->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=290&color=0:030303,30:160020,58:4c0070,82:0369a1,100:22d3ee&text=DIAVLO%20WAV&fontColor=ffffff&fontSize=66&fontAlignY=35&desc=ESTACI%C3%93N%20MULTIMEDIA%20NATIVA%20%C2%B7%20HECHA%20DESDE%20CANARIAS&descAlignY=56&descSize=16&animation=fadeIn" alt="DIAVLO WAV" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:030303,28:160020,58:4c0070,82:0369a1,100:22d3ee&text=DIAVLO%20WAV&fontColor=ffffff&fontSize=66&fontAlignY=35&desc=AUDIO%20INTELLIGENCE%20FOR%20PRODUCERS&descAlignY=56&descSize=17&animation=fadeIn" alt="DIAVLO WAV" />
 
 <a href="https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2400&pause=650&color=C084FC&center=true&vCenter=true&repeat=true&width=960&height=58&lines=Descarga.+Convierte.+Analiza.+Crea.;Del+enlace+al+archivo+listo+para+producir.;Flujo+nativo+para+Windows%2C+sin+laberintos.;Built+in+the+Canary+Islands.+Ready+for+the+world." alt="Texto animado de DIAVLO WAV" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2400&pause=650&color=C084FC&center=true&vCenter=true&repeat=true&width=980&height=58&lines=Download.+Analyse.+Separate.+Create.;From+raw+audio+to+production-ready+assets.;Local-first+processing.+No+cloud+maze.;Built+in+the+Canary+Islands." alt="DIAVLO WAV animated description" />
 </a>
 
 <br />
 
-[![Última versión](https://img.shields.io/github/v/release/Nikolai-coder/diavlo-wav-releases?display_name=tag\&sort=semver\&style=for-the-badge\&logo=github\&logoColor=white\&label=%C3%9ALTIMA%20VERSI%C3%93N\&labelColor=09090b\&color=a855f7)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
-[![Descargas](https://img.shields.io/github/downloads/Nikolai-coder/diavlo-wav-releases/total?style=for-the-badge\&logo=windows11\&logoColor=white\&label=DESCARGAS\&labelColor=09090b\&color=06b6d4)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases)
-[![Plataforma](https://img.shields.io/badge/WINDOWS-10%20%7C%2011-0078D6?style=for-the-badge\&logo=windows11\&logoColor=white\&labelColor=09090b)](#requisitos-del-sistema--system-requirements)
-[![Arquitectura](https://img.shields.io/badge/ARQUITECTURA-x64-18181b?style=for-the-badge\&logo=windows\&logoColor=white\&labelColor=09090b)](#requisitos-del-sistema--system-requirements)
-[![Canarias](https://img.shields.io/badge/CREADO%20EN-ISLAS%20CANARIAS-facc15?style=for-the-badge\&labelColor=09090b)](#identidad-canaria--canary-identity)
+[![Latest Release](https://img.shields.io/github/v/release/Nikolai-coder/diavlo-wav-releases?display_name=tag\&sort=semver\&style=for-the-badge\&logo=github\&logoColor=white\&label=LATEST\&labelColor=09090b\&color=a855f7)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Nikolai-coder/diavlo-wav-releases/total?style=for-the-badge\&logo=windows11\&logoColor=white\&label=DOWNLOADS\&labelColor=09090b\&color=06b6d4)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases)
+[![Platform](https://img.shields.io/badge/PLATFORM-WINDOWS%2010%20%7C%2011-0078D6?style=for-the-badge\&logo=windows11\&logoColor=white\&labelColor=09090b)](#system-requirements)
+[![Architecture](https://img.shields.io/badge/ARCHITECTURE-x64-18181b?style=for-the-badge\&logo=windows\&logoColor=white\&labelColor=09090b)](#system-requirements)
+[![Core](https://img.shields.io/badge/CORE-RUST%20%2B%20TAURI-f97316?style=for-the-badge\&logo=rust\&logoColor=white\&labelColor=09090b)](#technology)
+[![Privacy](https://img.shields.io/badge/AUDIO-LOCAL--FIRST-22c55e?style=for-the-badge\&logo=shield\&logoColor=white\&labelColor=09090b)](#privacy-and-security)
 
 <br />
 
-### Estación multimedia nativa para descargar, convertir y analizar contenido en Windows.
+### A local-first Windows workstation for producers, beatmakers, artists and audio engineers.
 
-### Native Windows workstation for media extraction, conversion and musical analysis.
+**Download · Convert · Analyse · Separate · Repair · Transcribe · Master · Export**
 
-**Una aplicación. Un comando. Un flujo creativo.**
-**One application. One command. One focused workflow.**
-
-[![Descargar](https://img.shields.io/badge/DESCARGAR%20AHORA-ENTRAR%20EN%20DIAVLO-A855F7?style=for-the-badge\&logo=github\&logoColor=white\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
-[![Instalador](https://img.shields.io/badge/INSTALADOR%20WINDOWS-DESCARGAR-0078D6?style=for-the-badge\&logo=windows11\&logoColor=white\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/DiavloWAV-Setup-x64.exe)
-[![Estrella](https://img.shields.io/badge/DAR%20ESTRELLA-APOYAR%20EL%20PROYECTO-facc15?style=for-the-badge\&logo=github\&logoColor=09090b\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases)
-
-<br />
-
-[🇪🇸 Español](#español)　•　[🇬🇧 English](#english)
-
-`DESCARGA`　•　`CONVIERTE`　•　`ANALIZA`　•　`CREA`
+[Download latest release](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest) ·
+[View all releases](https://github.com/Nikolai-coder/diavlo-wav-releases/releases) ·
+[Report an issue](https://github.com/Nikolai-coder/diavlo-wav-releases/issues)
 
 </div>
 
 ---
 
-# Español
+## About DIAVLO WAV
 
-## `01 // INSTALACIÓN`
+**DIAVLO WAV** is a native desktop application built to transform audio and media into production-ready material without interrupting the creative workflow.
 
-Abre **PowerShell** y ejecuta:
+It combines media extraction, format conversion, professional audio analysis, stem separation, intelligent mastering, Audio-to-MIDI, reference comparison, session management and production utilities inside one focused application.
 
-```powershell
-irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" | iex
-```
+DIAVLO WAV does not try to replace your DAW. It works beside it.
 
-El comando obtiene el instalador oficial desde la **última publicación de GitHub** e inicia la instalación compatible con Windows.
+Use it to:
 
-DIAVLO WAV incluye sus componentes multimedia esenciales. No necesitas instalar manualmente FFmpeg, FFprobe, yt-dlp, Deno, Node.js, Python ni Rust.
+* Obtain and convert legally accessible media.
+* Inspect the technical and musical characteristics of a track.
+* Separate vocals, drums, bass and instrumental material.
+* Extract MIDI from melodies or isolated instruments.
+* Compare a mix against a reference.
+* Prepare vocals and loops.
+* Build mastering chains.
+* Organize stems, MIDI, metadata and exports.
+* Transfer clean assets into FL Studio, Ableton Live or another DAW.
 
-> [!IMPORTANT]
-> Instala DIAVLO WAV únicamente desde este repositorio o desde los archivos oficiales de sus publicaciones en GitHub.
-
-<details>
-<summary><strong>Inspeccionar el instalador antes de ejecutarlo</strong></summary>
-
-<br />
-
-```powershell
-$script = "$env:TEMP\diavlowav-install.ps1"
-
-irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" `
-  -OutFile $script
-
-notepad $script
-```
-
-Después de revisarlo:
-
-```powershell
-& $script
-```
-
-Esto guarda el script oficial en tu equipo, lo abre para inspeccionarlo y solamente lo ejecuta cuando tú decides continuar.
-
-</details>
-
-<details>
-<summary><strong>Instalación tradicional en Windows</strong></summary>
-
-<br />
-
-1. Abre la [última publicación](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest).
-2. Descarga `DiavloWAV-Setup-x64.exe`.
-3. Ejecuta el instalador.
-4. Abre DIAVLO WAV.
-
-</details>
+The application follows a **local-first** philosophy: audio processing happens on the user's computer whenever the selected workflow permits it.
 
 ---
 
-## `02 // EL PRODUCTO`
+## Version 1.0
 
-DIAVLO WAV es una **estación audiovisual nativa para Windows** creada para reducir la distancia entre encontrar contenido y tenerlo preparado dentro de un flujo creativo.
+DIAVLO WAV `1.0.0` represents the first complete production workflow of the project.
 
-Reúne descarga, listas de reproducción, conversión, gestión local, análisis musical y actualizaciones automáticas dentro de una única aplicación de escritorio.
+The release line introduces or consolidates:
 
-<table>
-<tr>
-<td width="33%" valign="top">
+* Persistent DIAVLO Sessions.
+* Native audio analysis in Rust.
+* Local Demucs stem separation.
+* Intelligent mastering with A/B comparison.
+* Audio-to-MIDI workflows.
+* Spotify Smart Resolver through OAuth PKCE.
+* Model Manager with SHA-256 verification.
+* Producer tools such as Beat Autopsy, DIAVLO DNA and Vocal Forge.
+* Organized export packages.
+* Signed automatic-update artifacts.
+* Release verification gates for frontend, Rust, sidecars and updater metadata.
 
-### ⬇️ Descargar
+> [!IMPORTANT]
+> A compiled build is not considered a stable release until its installer, updater, upgrade path and release artifacts pass the complete release verification gate.
 
-* Enlaces individuales
-* Listas de reproducción
-* Cola de tareas
-* Progreso en tiempo real
-* Cancelación de descargas
-* Carpeta de destino configurable
-* Apertura directa del archivo
-* Apertura directa de la carpeta
-* Procesamiento sin ventanas de terminal
+---
 
-</td>
-<td width="33%" valign="top">
+## Main Workspaces
 
-### ♻️ Convertir
+### Home
 
-* WAV
-* FLAC
-* MP3
-* MP4
-* Extracción de audio
-* Conversión mediante FFmpeg
-* Procesamiento local
-* Nombres de archivo seguros
-* Componentes integrados
-* Diferentes calidades de salida
+The starting point for recent projects, quick actions and application status.
 
-</td>
-<td width="33%" valign="top">
+Home can provide access to:
 
-### 🎛️ Analizar
+* Recent DIAVLO Sessions.
+* Recent audio files.
+* Active and completed processing jobs.
+* Model installation status.
+* Update availability.
+* Quick access to analysis, stems, mastering and downloads.
 
-* Detección de BPM
-* Tonalidad y modo musical
-* Notación Camelot
-* Indicadores de confianza
-* Lectura half-time y double-time
-* Cambios musicales en la línea temporal
-* Información lista para producción
-* Resultados asociados al archivo
+---
 
-</td>
-</tr>
-</table>
+### Download
+
+Obtain media from supported public sources through the packaged extraction backend.
+
+Available workflows can include:
+
+* Individual URLs.
+* Playlist-compatible workflows.
+* Audio-only extraction.
+* Video downloads.
+* Output-folder selection.
+* Format and quality selection.
+* Real-time progress.
+* Cancellation and error reporting.
+* Safe filename handling.
+* Unicode-compatible paths.
+* Automatic conversion after extraction.
+
+The extraction engine is packaged as a controlled sidecar. DIAVLO WAV does not depend on a random global installation found on the computer.
 
 > [!NOTE]
-> La compatibilidad con plataformas externas puede cambiar cuando estas modifican sus páginas, sistemas de autenticación o reglas de acceso. DIAVLO WAV no elimina DRM ni protecciones de servicios de pago.
+> Platform compatibility may change when an external service modifies its website, API or access rules.
 
 ---
 
-## `03 // SPOTIFY SMART RESOLVER` — BETA
+### Convert
 
-DIAVLO WAV puede reconocer enlaces de Spotify correspondientes a:
+Convert local files into formats suitable for production, delivery or archiving.
 
-* canciones;
-* álbumes;
-* playlists;
-* enlaces regionales como `/intl-es/`;
-* enlaces con parámetros adicionales.
+Supported workflows may include:
 
-El Smart Resolver utiliza Spotify para consultar **metadatos** y ayudar a localizar una fuente compatible para el flujo de descarga.
+* Audio extraction from video.
+* WAV conversion.
+* FLAC conversion.
+* MP3 conversion.
+* MP4 processing.
+* Sample-rate conversion.
+* Channel conversion.
+* Bit-depth selection.
+* Batch processing.
+* Output normalization.
+* Safe overwrite protection.
+
+FFmpeg operations are executed through the packaged application backend.
+
+---
+
+### Analyse
+
+Inspect the musical and technical behavior of an audio file before making production decisions.
+
+Analysis can include:
+
+* BPM detection.
+* BPM confidence.
+* Half-time and double-time candidates.
+* Key and scale detection.
+* Tonal confidence.
+* Camelot notation.
+* Integrated loudness.
+* Short-term loudness.
+* Momentary loudness.
+* True peak.
+* RMS.
+* Crest factor.
+* Dynamic-range indicators.
+* Clipping detection.
+* DC-offset detection.
+* Spectral balance.
+* Five-band energy analysis.
+* Stereo width.
+* Phase correlation.
+* Silence and transient detection.
+* Energy changes over time.
+* Structural estimation.
+* Actionable production recommendations.
+
+The native FFT pipeline uses windowed spectral analysis to provide measurable information instead of generic descriptions.
+
+---
+
+### Stems
+
+Separate audio locally using installed Demucs-compatible models.
+
+Typical stem configurations include:
+
+* Vocals.
+* Drums.
+* Bass.
+* Other or instrumental material.
+
+Depending on the selected model, additional configurations may be available.
+
+The stems workspace includes:
+
+* Local model execution.
+* Progress tracking.
+* Cancellation.
+* Error reporting.
+* Temporary-file cleanup.
+* Multistem playback.
+* Synchronized stem preview.
+* Solo and mute controls.
+* Individual stem export.
+* Grouped export.
+
+Long songs and CPU-only systems may require significantly more processing time.
+
+---
+
+### Master
+
+Create and preview a mastering chain based on the measurable properties of the source audio.
+
+The mastering workflow can include:
+
+* Corrective EQ.
+* Dynamic processing.
+* Compression.
+* Multiband control when required.
+* Saturation.
+* Stereo control.
+* Limiting.
+* True-peak protection.
+* Output loudness targeting.
+* Adjustable processing intensity.
+* Stage bypass.
+* Preset workflows.
+* Loudness-matched A/B comparison.
+* Export without overwriting the original file.
+* Persistent mastering history.
+
+Mastering is non-destructive. The source file remains untouched unless the user explicitly exports a new result.
+
+---
+
+## DIAVLO Sessions
+
+Create, open, save, duplicate and recover complete DIAVLO WAV projects.
+
+A session can preserve:
+
+* Imported audio references.
+* Analysis results.
+* Generated stems.
+* Reference tracks.
+* Audio-to-MIDI results.
+* Mastering settings.
+* Processing history.
+* Export history.
+* Active tool.
+* Interface state.
+* Last saved timestamp.
+
+The session system is designed around:
+
+* Versioned project formats.
+* Atomic saves.
+* Autosave.
+* Recovery after an unexpected shutdown.
+* Migration support.
+* Missing-file detection.
+* File relocation.
+* Safe path handling.
+
+Original media is not embedded or modified unless the chosen export workflow explicitly creates a new file.
+
+---
+
+## Producer Tools
+
+### Stem Surgeon
+
+Edit separated audio without modifying the original recording.
+
+Available tools can include:
+
+* Region selection.
+* Splitting and trimming.
+* Gain adjustment.
+* Mute.
+* Fades and crossfades.
+* Normalization.
+* Click repair.
+* Basic noise cleanup.
+* Region replacement.
+* Undo and redo.
+* Individual or grouped export.
+
+---
+
+### Reference Ghost
+
+Compare a production against a real reference track.
+
+Reference Ghost can inspect measurable differences in:
+
+* Loudness.
+* True peak.
+* Dynamics.
+* Frequency balance.
+* Low-end energy.
+* Brightness.
+* Stereo width.
+* Correlation.
+* Tonality.
+* Transients.
+* Energy.
+* Structure.
+
+Recommendations are generated from detected differences. Changes are never applied automatically without an explicit user action.
+
+---
+
+### Audio-to-MIDI
+
+Convert musical audio into Standard MIDI Files.
+
+#### Fast extraction
+
+Designed for clearer monophonic material such as:
+
+* Melodies.
+* Bass lines.
+* Lead instruments.
+* Simple vocal lines.
+
+#### Polyphonic AI extraction
+
+A local Basic Pitch workflow can detect overlapping notes and chords from suitable isolated material.
+
+Generated MIDI can include:
+
+* Note pitch.
+* Note start and end.
+* Velocity estimation.
+* Tempo information.
+* Standard MIDI File export.
+
+Current limitations:
+
+* Dense full mixes can reduce accuracy.
+* Strong harmonics may be interpreted as extra notes.
+* Pitch bends, vibrato and glissando curves are not fully preserved.
+* Final MIDI cleanup inside a DAW may still be necessary.
+
+---
+
+### Beat Autopsy
+
+Analyse how a beat changes through time.
+
+Beat Autopsy can detect or estimate:
+
+* Intro.
+* Verse.
+* Chorus.
+* Bridge.
+* Outro.
+* Drops.
+* Transitions.
+* Fills.
+* Silences.
+* Energy changes.
+* Density changes.
+* Drum variation.
+* Bass variation.
+* Melodic variation.
+* Contrast between sections.
+
+Results include timestamps and confidence indicators.
+
+---
+
+### Vocal Forge
+
+Prepare vocal recordings while preserving the original audio.
+
+Processing can include:
+
+* Noise detection.
+* Breath management.
+* De-essing.
+* Plosive control.
+* Resonance reduction.
+* Corrective EQ.
+* Gate.
+* Leveling.
+* Compression.
+* Saturation.
+* Limiting.
+* A/B preview.
+
+---
+
+### Loop Alchemist
+
+Transform loops into new production-ready variations.
+
+Tools can include:
+
+* BPM detection.
+* Key detection.
+* Time-stretching.
+* Pitch-preserving tempo changes.
+* Transposition.
+* Reverse.
+* Half-time.
+* Double-time.
+* Chopping.
+* Slicing.
+* Region rearrangement.
+* Fades.
+* Batch variation export.
+
+---
+
+### Local Sample Finder
+
+Index selected folders and search a sample library without uploading it.
+
+Search and filtering can use:
+
+* Filename.
+* Folder.
+* Duration.
+* Sample rate.
+* Channel count.
+* BPM.
+* Key.
+* Estimated sound type.
+* Spectral characteristics.
+* Audio similarity.
+
+The local index supports:
+
+* Incremental updates.
+* Moved-file detection.
+* Duplicate protection.
+* Persistent metadata.
+* User-controlled deletion.
+
+---
+
+### DIAVLO DNA
+
+Build a measurable production profile from the user's own music.
+
+DIAVLO DNA can summarize:
+
+* Common BPM ranges.
+* Frequent keys and modes.
+* Loudness tendencies.
+* Dynamic behavior.
+* Spectral balance.
+* Stereo characteristics.
+* Energy and density.
+* Structural tendencies.
+
+Every profile includes its dataset size, confidence and update date.
+
+The profile can be recalculated or deleted by the user.
+
+---
+
+### FL Studio Bridge
+
+Prepare a clean exchange package for FL Studio or another compatible DAW.
+
+A bridge package can include:
+
+* Properly named stems.
+* MIDI files.
+* BPM information.
+* Key information.
+* Markers.
+* Technical manifest.
+* Export notes.
+* Shortcut to the output folder.
+
+DIAVLO WAV does not claim to remotely control FL Studio. The bridge focuses on reliable file exchange and project preparation.
+
+---
+
+### Export Center
+
+Create individual exports or complete delivery packages.
+
+Supported outputs can include:
+
+* WAV 16-bit.
+* WAV 24-bit.
+* FLAC.
+* MP3.
+* MIDI.
+* Individual stems.
+* Grouped stems.
+* ZIP packages.
+* Technical manifests.
+* Export notes.
+
+Available delivery workflows can include:
+
+* Streaming master.
+* Beat-store preview.
+* Trackouts.
+* Mixing delivery.
+* Distribution package.
+* Social-media export.
+* Artist delivery.
+
+The Export Center handles:
+
+* Unicode filenames.
+* Duplicate names.
+* Temporary files.
+* Conversion errors.
+* Overwrite protection.
+* Organized folder structures.
+
+---
+
+### Visual Lab
+
+Associate audio with visual material and prepare assets for visualizers.
+
+Supported workflow:
 
 ```text
-ENLACE DE SPOTIFY
-        │
-        ▼
-METADATOS DEL CONTENIDO
-        │
-        ▼
-BÚSQUEDA DE CANDIDATOS
-        │
-        ▼
-PUNTUACIÓN DE COINCIDENCIA
-        │
-        ▼
-REVISIÓN O DESCARGA
+BEAT → VISUAL → PREVIEW → EXPORT
 ```
 
-Spotify se utiliza únicamente como fuente de información.
+Visual Lab can work with:
 
-**DIAVLO WAV no descarga audio directamente desde Spotify, no descifra transmisiones y no evita DRM.**
+* Imported images.
+* Imported video.
+* Audio previews.
+* Exported visualizer assets.
+* Safe import and export workflows for external design tools.
 
-> [!WARNING]
-> La conexión con Spotify continúa en fase beta. Debido a las limitaciones de la aplicación de desarrollador, algunas cuentas pueden no estar autorizadas temporalmente.
-
-Todos los usuarios utilizan el Client ID público oficial configurado en DIAVLO WAV. No es necesario que cada usuario cree su propio Client ID.
+External services are not embedded when no stable or secure integration exists.
 
 ---
 
-## `04 // FLUJO DE SEÑAL`
-
-```mermaid
-flowchart LR
-    A[Enlace multimedia] --> B[Detección de plataforma]
-    B --> C{Tipo de fuente}
-    C -->|Enlace compatible| D[Motor de extracción]
-    C -->|Spotify| E[Smart Resolver]
-    E --> F[Búsqueda de candidatos]
-    F --> D
-    D --> G[Motor de descarga]
-    G --> H{Tipo de salida}
-    H -->|Audio| I[WAV · FLAC · MP3]
-    H -->|Vídeo| J[MP4 · salida compatible]
-    I --> K[Análisis musical]
-    J --> L[Biblioteca local]
-    K --> M[BPM · Tonalidad · Camelot · Línea temporal]
-    M --> L
-```
-
-```text
-┌─ DIAVLO SIGNAL / NÚCLEO DE ANÁLISIS ─────────────────────────────┐
-│                                                                  │
-│  BPM             140                                             │
-│  TONALIDAD       F# MENOR                                        │
-│  CAMELOT         11A                                             │
-│  CONFIANZA       ██████████████████░░  91%                       │
-│                                                                  │
-│  LÍNEA TEMPORAL                                                  │
-│  00:00 ━━━━━━━━━━━ 01:12    140 BPM · F# Menor                   │
-│  01:12 ━━━━━━━━━━━ 02:26    155 BPM · F# Menor                   │
-│                                                                  │
-│  DETECCIÓN       CAMBIO DE BPM                                   │
-│  ESTADO          ANÁLISIS COMPLETADO                             │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## `05 // DISEÑO Y RENDIMIENTO`
-
-La interfaz actual de DIAVLO WAV está orientada a la simplicidad, la estabilidad y el rendimiento.
-
-Se ha eliminado el antiguo sistema Liquid Glass y sus efectos visuales pesados para construir una experiencia más sólida y directa.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Diseño
-
-* Interfaz oscura y minimalista
-* Superficies opacas
-* Jerarquía visual clara
-* Espaciado consistente
-* Controles planos
-* Tipografía legible
-* Menos elementos decorativos
-* Estados más fáciles de entender
-
-</td>
-<td width="50%" valign="top">
-
-### Rendimiento
-
-* Sin efectos Liquid Glass
-* Sin partículas
-* Sin fondos animados
-* Sin brillos innecesarios
-* Sin animaciones decorativas
-* Menor profundidad de DOM
-* Menos trabajo gráfico permanente
-* Menos listeners visuales
-* Mejor estabilidad en WebView2
-
-</td>
-</tr>
-</table>
-
-La calidad visual se apoya en las proporciones, el contraste, el espaciado y la alineación, no en efectos que consuman recursos innecesariamente.
-
----
-
-## `06 // POR QUÉ DIAVLO WAV`
-
-| Capacidad                          | Enfoque DIAVLO                                                                   |
-| ---------------------------------- | -------------------------------------------------------------------------------- |
-| **Aplicación nativa para Windows** | Un flujo de escritorio dedicado en lugar de un laberinto de pestañas.            |
-| **Instalación con un comando**     | La última versión compatible está siempre a una orden de distancia.              |
-| **Sin dependencias manuales**      | Los componentes multimedia esenciales se distribuyen con la aplicación.          |
-| **Inteligencia para creadores**    | BPM, tonalidad, Camelot y línea temporal permanecen junto al archivo.            |
-| **Procesamiento local**            | Los archivos terminan en la ubicación elegida por el usuario.                    |
-| **Cola y progreso**                | Las tareas pueden organizarse, seguirse y cancelarse desde la aplicación.        |
-| **Publicaciones versionadas**      | Cada versión pública se distribuye mediante publicaciones rastreables de GitHub. |
-| **Verificación de integridad**     | Los hashes publicados permiten comprobar los archivos descargados.               |
-| **Actualizador firmado**           | Las versiones compatibles pueden detectar e instalar actualizaciones necesarias. |
-| **Interfaz optimizada**            | Una experiencia estática, rápida y centrada en la función.                       |
-
----
-
-## `07 // NÚCLEO TECNOLÓGICO`
-
-<div align="center">
-
-![Rust](https://img.shields.io/badge/RUST-N%C3%9ACLEO%20NATIVO-000000?style=for-the-badge\&logo=rust\&logoColor=white)
-![Tauri](https://img.shields.io/badge/TAURI-MOTOR%20DE%20ESCRITORIO-24C8DB?style=for-the-badge\&logo=tauri\&logoColor=white)
-![React](https://img.shields.io/badge/REACT-INTERFAZ-0D1117?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-L%C3%93GICA%20DE%20APLICACI%C3%93N-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFMPEG-MOTOR%20MULTIMEDIA-007808?style=for-the-badge\&logo=ffmpeg\&logoColor=white)
-![PowerShell](https://img.shields.io/badge/POWERSHELL-INSTALADOR-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GITHUB%20ACTIONS-PUBLICACIONES-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
-
-</div>
-
-```text
-DIAVLO WAV
-├── Aplicación de escritorio ... Tauri 2
-├── Núcleo nativo .............. Rust
-├── Interfaz ................... React + TypeScript
-├── Construcción ............... Vite
-├── Motor multimedia ........... FFmpeg + FFprobe
-├── Extracción ................. yt-dlp
-├── Runtime auxiliar ........... Deno
-├── Análisis ................... BPM · tonalidad · Camelot
-├── Instalador ................. NSIS + PowerShell
-├── Bootstrap .................. Rust
-├── Actualizador ............... Tauri Updater firmado
-└── Distribución ............... GitHub Releases
-```
-
-> Este repositorio es el **canal público oficial de publicaciones**. El código fuente y la infraestructura privada de construcción pueden mantenerse por separado.
-
----
-
-## `08 // ACTUALIZACIONES AUTOMÁTICAS`
-
-DIAVLO WAV incluye un actualizador interno firmado.
-
-Cuando existe una versión superior compatible:
-
-```text
-INICIO DE LA APLICACIÓN
-        │
-        ▼
-COMPROBACIÓN DE VERSIÓN
-        │
-        ▼
-DESCARGA FIRMADA
-        │
-        ▼
-VERIFICACIÓN
-        │
-        ▼
-INSTALACIÓN
-        │
-        ▼
-REINICIO
-```
-
-El flujo de actualización:
-
-* consulta el manifiesto oficial;
-* compara la versión instalada;
-* bloquea versiones que requieren actualización;
-* descarga el paquete firmado;
-* muestra el progreso;
-* instala la nueva versión;
-* reinicia la aplicación.
-
-Las actualizaciones obligatorias pueden contener correcciones de seguridad, compatibilidad, estabilidad o cambios necesarios en el motor multimedia.
-
-El manifiesto público del actualizador se distribuye como:
-
-```text
-latest.json
-```
-
-junto con la firma correspondiente del paquete.
-
----
-
-## `09 // TELEMETRÍA EN VIVO`
-
-<div align="center">
-
-[![Versión](https://img.shields.io/github/v/release/Nikolai-coder/diavlo-wav-releases?display_name=tag\&sort=semver\&style=for-the-badge\&color=a855f7\&label=%C3%9ALTIMA%20VERSI%C3%93N\&labelColor=09090b)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
-[![Fecha](https://img.shields.io/github/release-date/Nikolai-coder/diavlo-wav-releases?style=for-the-badge\&label=PUBLICADA\&color=06b6d4\&labelColor=09090b)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
-[![Descargas](https://img.shields.io/github/downloads/Nikolai-coder/diavlo-wav-releases/total?style=for-the-badge\&label=DESCARGAS\&color=7c3aed\&labelColor=09090b)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases)
-[![Actividad](https://img.shields.io/github/last-commit/Nikolai-coder/diavlo-wav-releases?style=for-the-badge\&label=%C3%9ALTIMA%20SE%C3%91AL\&color=22c55e\&labelColor=09090b)](https://github.com/Nikolai-coder/diavlo-wav-releases/commits/main)
-[![Tamaño](https://img.shields.io/github/repo-size/Nikolai-coder/diavlo-wav-releases?style=for-the-badge\&label=TAMA%C3%91O\&color=f97316\&labelColor=09090b)](https://github.com/Nikolai-coder/diavlo-wav-releases)
-
-</div>
-
----
-
-## `10 // IDENTIDAD CANARIA` 🌋🌊
-
-DIAVLO WAV nace en las **Islas Canarias**, entre paisaje volcánico, océano Atlántico y una cultura acostumbrada a mirar más allá del horizonte.
-
-```text
-NEGRO VOLCÁNICO   La base técnica: sólida, directa y resistente.
-AZUL ATLÁNTICO    La conexión: abierta, rápida y preparada para viajar.
-VIOLETA NOCTURNO  La identidad: oscura, creativa y reconocible.
-ORIGEN            ISLAS CANARIAS · 28°N
-DESTINO           CUALQUIER ESCRITORIO DEL MUNDO
-```
-
-> **Construido desde unas islas. Diseñado sin límites.**
-
----
-
-## `11 // REQUISITOS DEL SISTEMA`
-
-| Requisito                 | Configuración compatible                                                         |
-| ------------------------- | -------------------------------------------------------------------------------- |
-| **Sistema operativo**     | Windows 10 o Windows 11                                                          |
-| **Arquitectura**          | x64                                                                              |
-| **PowerShell**            | Windows PowerShell 5.1+ o PowerShell 7+                                          |
-| **Internet**              | Necesario para instalar, actualizar y procesar enlaces en línea                  |
-| **Almacenamiento**        | Depende de la duración, la lista y el formato de salida                          |
-| **Permisos**              | Permisos normales de instalación; puede solicitar elevación cuando sea necesario |
-| **Dependencias externas** | No requiere instalación manual de FFmpeg, yt-dlp, Deno, Node.js, Python o Rust   |
-
----
-
-## `12 // COMANDOS DISPONIBLES`
-
-Después de instalar DIAVLO WAV puedes utilizar:
-
-```powershell
-diavlowav
-```
-
-Abre la aplicación.
-
-```powershell
-diavlowav --version
-```
-
-Muestra la versión instalada.
-
-```powershell
-diavlowav doctor
-```
-
-Comprueba la instalación, los componentes y las rutas principales.
-
-```powershell
-diavlowav repair
-```
-
-Repara o reinstala los componentes necesarios.
-
-```powershell
-diavlowav uninstall
-```
-
-Inicia la desinstalación.
-
----
-
-## `13 // VERIFICAR LA PUBLICACIÓN`
-
-Los archivos publicados pueden incluir hashes SHA-256.
-
-Para calcular el hash del instalador:
-
-```powershell
-Get-FileHash ".\DiavloWAV-Setup-x64.exe" -Algorithm SHA256
-```
-
-Compara el resultado con el hash incluido en la publicación correspondiente.
-
-<details>
-<summary><strong>Comparación automática del hash</strong></summary>
-
-<br />
-
-```powershell
-$installer = ".\DiavloWAV-Setup-x64.exe"
-$checksumFile = ".\DiavloWAV-Setup-x64.exe.sha256"
-
-$actual = (Get-FileHash $installer -Algorithm SHA256).Hash.ToLower()
-$expected = ((Get-Content $checksumFile -Raw) -split '\s+')[0].Trim().ToLower()
-
-if ($actual -eq $expected) {
-    Write-Host "Integridad de DIAVLO WAV verificada." -ForegroundColor Green
-} else {
-    Write-Error "El hash no coincide. No ejecutes este instalador."
-}
-```
-
-</details>
-
----
-
-## `14 // SOLUCIÓN DE PROBLEMAS`
-
-<details>
-<summary><strong>La actualización automática no aparece</strong></summary>
-
-<br />
-
-1. Cierra completamente DIAVLO WAV.
-2. Comprueba que no continúe abierto desde el Administrador de tareas.
-3. Abre la aplicación instalada nuevamente.
-4. Verifica tu conexión a Internet.
-5. Ejecuta:
-
-```powershell
-diavlowav doctor
-```
-
-Si continúa fallando:
-
-```powershell
-diavlowav repair
-```
-
-También puedes instalar nuevamente la versión oficial sin desinstalar primero:
-
-```powershell
-irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" | iex
-```
-
-</details>
-
-<details>
-<summary><strong>Spotify no permite conectar una cuenta</strong></summary>
-
-<br />
-
-La integración con Spotify continúa en beta.
-
-Algunas cuentas pueden no estar autorizadas temporalmente debido a las limitaciones de la aplicación de desarrollador.
-
-El usuario no debe introducir un Client ID diferente. DIAVLO WAV utiliza un único Client ID público oficial.
-
-Las funciones normales que no dependan de Spotify pueden continuar utilizándose.
-
-</details>
-
-<details>
-<summary><strong>PowerShell bloquea el comando</strong></summary>
-
-<br />
-
-Ejecuta el comando desde una ventana normal de PowerShell.
-
-Cuando una política de empresa o centro educativo bloquee scripts, utiliza el instalador `.exe` de la última publicación en lugar de reducir globalmente la seguridad del sistema.
-
-</details>
-
-<details>
-<summary><strong>Una plataforma deja de funcionar</strong></summary>
-
-<br />
-
-Las páginas externas cambian con frecuencia.
-
-Instala primero la última versión de DIAVLO WAV. Algunas fuentes pueden requerir autenticación o no estar disponibles por restricciones regionales, de cuenta o DRM.
-
-</details>
-
-<details>
-<summary><strong>Falla una descarga o conversión</strong></summary>
-
-<br />
-
-Comprueba:
-
-* que el enlace abre correctamente;
-* que existe espacio libre;
-* que la carpeta permite escritura;
-* que tienes instalada la última versión;
-* que el formato elegido es compatible;
-* que el contenido está disponible en tu región;
-* que la cuenta tiene acceso al contenido;
-* que la fuente no está protegida mediante DRM.
-
-Conserva el mensaje de error completo al informar del problema.
-
-</details>
-
-<details>
-<summary><strong>La aplicación exige una actualización</strong></summary>
-
-<br />
-
-Completa la actualización desde el actualizador interno.
-
-Las versiones obligatorias pueden contener cambios de compatibilidad, seguridad o del motor multimedia necesarios para continuar funcionando correctamente.
-
-</details>
-
----
-
-## `15 // SEGURIDAD Y PRIVACIDAD`
-
-* El procesamiento está diseñado alrededor de un **flujo local de escritorio**.
-* Los archivos se guardan en la carpeta elegida por el usuario.
-* Descarga únicamente desde este repositorio y sus archivos oficiales.
-* Verifica los hashes cuando estén disponibles.
-* No confíes en instaladores resubidos a páginas de terceros.
-* No publiques contraseñas, cookies, tokens ni datos privados en los reportes.
-* Revisa el script de instalación localmente cuando necesites máxima transparencia.
-* DIAVLO WAV no necesita un Client Secret de Spotify integrado en la aplicación.
-* Las credenciales no deben almacenarse en texto plano.
-* Las actualizaciones se distribuyen mediante paquetes firmados.
-
-Para comunicar una posible vulnerabilidad, evita publicar detalles sensibles en una incidencia pública y contacta de forma privada con el mantenedor mediante su perfil de GitHub.
-
----
-
-## `16 // ESTADO DE PLATAFORMAS`
-
-| Plataforma              | Estado        |
-| ----------------------- | ------------- |
-| **Windows 10/11 x64**   | Disponible    |
-| **macOS Apple Silicon** | En desarrollo |
-| **macOS Intel**         | En desarrollo |
-| **Linux**               | No anunciado  |
-
-La futura versión para macOS utilizará instaladores DMG separados para Apple Silicon e Intel.
-
-Hasta que estos instaladores aparezcan dentro de una publicación oficial, no descargues supuestas versiones de macOS desde páginas de terceros.
-
----
-
-## `17 // HOJA DE RUTA`
-
-```text
-[✓] Instalador nativo para Windows
-[✓] Instalación mediante PowerShell
-[✓] Publicaciones versionadas en GitHub
-[✓] Flujos de salida de audio y vídeo
-[✓] Gestión de listas de reproducción
-[✓] Cola, progreso y cancelación
-[✓] Análisis de BPM, tonalidad y Camelot
-[✓] Detección de cambios en la línea temporal
-[✓] Spotify Smart Resolver beta
-[✓] Actualizador obligatorio y firmado
-[✓] Interfaz minimalista sin Liquid Glass
-[✓] Eliminación de animaciones decorativas
-[✓] Componentes multimedia integrados
-[ ] Ampliar la compatibilidad pública de Spotify
-[ ] Diagnósticos y herramientas de reparación ampliados
-[ ] Controles más profundos de cola y biblioteca
-[ ] Instalador DMG para Apple Silicon
-[ ] Instalador DMG para Mac Intel
-[ ] Firma y notarización de macOS
-[ ] Actualizador multiplataforma
-[ ] Más mejoras de rendimiento y fiabilidad
-```
-
-La hoja de ruta indica dirección, no fechas garantizadas. Las versiones se publican cuando alcanzan el nivel de calidad necesario.
-
----
-
-## `18 // USO RESPONSABLE`
-
-DIAVLO WAV es una utilidad técnica para contenido multimedia.
-
-Úsala únicamente con:
-
-* archivos propios;
-* contenido creado por ti;
-* material de dominio público;
-* contenido con licencia compatible;
-* contenido que tengas autorización legal para descargar y procesar.
-
-El proyecto no está afiliado con YouTube, Spotify, SoundCloud, TikTok, X, Reddit, Apple, Tidal ni otras plataformas.
-
-Las marcas, nombres y servicios pertenecen a sus respectivos propietarios.
-
-DIAVLO WAV no está diseñado para:
-
-* evitar suscripciones;
-* descifrar DRM;
-* saltarse controles de acceso;
-* descargar transmisiones protegidas;
-* vulnerar derechos de autor.
-
-El usuario es responsable del uso que realice de la herramienta.
-
----
-
-# English
-
-## `01 // INSTALLATION`
-
-Open **PowerShell** and run:
-
-```powershell
-irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" | iex
-```
-
-The command retrieves the official installer from the **latest GitHub release** and starts the supported Windows installation flow.
-
-DIAVLO WAV includes its essential media components. You do not need to install FFmpeg, FFprobe, yt-dlp, Deno, Node.js, Python or Rust manually.
+## Spotify Smart Resolver
+
+DIAVLO WAV can interpret Spotify links through the official Spotify API using OAuth PKCE.
+
+The resolver can:
+
+* Parse Spotify URLs.
+* Read authorized metadata.
+* Identify artist, title, album and duration.
+* Normalize search information.
+* Score possible equivalent sources.
+* Refresh OAuth sessions securely.
+* Pass resolved metadata into supported workflows.
 
 > [!IMPORTANT]
-> Install DIAVLO WAV only from this repository or its official GitHub release assets.
+> Spotify Smart Resolver does not extract or decrypt Spotify audio streams. It uses authorized metadata to locate equivalent accessible sources when permitted.
 
-<details>
-<summary><strong>Inspect the installer before running it</strong></summary>
+A Spotify account login may be required for real metadata resolution.
 
-<br />
+---
 
-```powershell
-$script = "$env:TEMP\diavlowav-install.ps1"
+## Model Manager
 
-irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" `
-  -OutFile $script
+Optional AI and separation models are managed from inside the application.
 
-notepad $script
-```
+Model Manager provides:
 
-After reviewing it:
+* Installation status.
+* Download progress.
+* SHA-256 checksum verification.
+* Corruption detection.
+* Reinstallation.
+* Removal.
+* Duplicate-download protection.
+* Atomic installation.
+* Cache invalidation.
+* Backend and device information.
+* Model license information.
 
-```powershell
-& $script
-```
+Models and downloaded executables are not used before their integrity validation succeeds.
 
-</details>
+No optional model should be downloaded silently.
 
-<details>
-<summary><strong>Traditional Windows installation</strong></summary>
+---
 
-<br />
+## Background Processing
+
+Long-running operations are handled as controlled jobs.
+
+The job system is designed to provide:
+
+* Progress reporting.
+* Current processing stage.
+* Cancellation.
+* Recoverable errors.
+* Timeout handling.
+* Temporary-file cleanup.
+* Prevention of duplicate jobs.
+* User-visible failure messages.
+* Protection against frozen interface states.
+
+Actual performance depends on the selected workflow, hardware and audio duration.
+
+---
+
+## Supported Formats
+
+### Common import formats
+
+Format availability depends on the decoding backend packaged with the build.
+
+Commonly supported formats include:
+
+* WAV.
+* FLAC.
+* MP3.
+* AIFF.
+* M4A.
+* OGG.
+* MP4.
+* Other FFmpeg-compatible media formats.
+
+### Export formats
+
+* WAV 16-bit.
+* WAV 24-bit.
+* FLAC.
+* MP3.
+* MIDI.
+* MP4 where supported.
+* ZIP delivery packages.
+
+---
+
+## Privacy and Security
+
+DIAVLO WAV is designed around local processing.
+
+By default:
+
+* Audio is processed locally.
+* Samples are not uploaded.
+* Local audio paths are not sent to external services.
+* Filenames are not added to hidden telemetry.
+* Models are integrity-checked before execution.
+* Original files are preserved.
+* Processing output is written to user-selected or application-controlled locations.
+* Automatic updates require a valid updater signature.
+
+Online access is limited to documented operations such as:
+
+* Software update checks.
+* Official release downloads.
+* Optional model downloads.
+* Spotify OAuth and metadata requests.
+* User-requested media extraction.
+
+Updater signatures and Windows Authenticode are different systems. A release can have a valid Tauri updater signature while Windows still displays an unknown-publisher warning when the installer has no Authenticode certificate.
+
+---
+
+## Automatic Updates
+
+DIAVLO WAV checks the configured stable release channel for signed updates.
+
+The updater workflow is designed to:
+
+1. Detect a compatible version.
+2. Download the correct Windows artifact.
+3. Verify the updater signature.
+4. Reject invalid or modified packages.
+5. Install the update.
+6. Restart the application when required.
+7. Preserve supported sessions and user data.
+
+A failed update must not silently replace the current working installation.
+
+### Update policy
+
+* Versions at or above the configured minimum-safe version receive normal optional updates.
+* Versions below the minimum-safe version may receive a mandatory update gate.
+* The current minimum-safe policy is based on version `0.4.0`.
+* A release is not published when the release verification gate fails.
+
+---
+
+## Installation
+
+### Traditional Windows installation
 
 1. Open the [latest release](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest).
-2. Download `DiavloWAV-Setup-x64.exe`.
+2. Download the Windows x64 installer.
 3. Run the installer.
-4. Launch DIAVLO WAV.
+4. Open DIAVLO WAV.
+5. Install optional models from **Model Manager** when required.
 
-</details>
+Only install builds obtained from the official release repository.
 
----
+### PowerShell installation
 
-## `02 // THE PRODUCT`
+When the official release includes `install.ps1`, installation can be started with:
 
-DIAVLO WAV is a **native Windows audiovisual workstation** built to reduce the distance between discovering media and having it ready for a creative workflow.
-
-It brings downloading, playlist handling, format conversion, local file management, musical analysis and automatic updates into one focused desktop application.
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### ⬇️ Download
-
-* Individual URLs
-* Playlist workflows
-* Download queue
-* Live progress
-* Task cancellation
-* Custom destination folder
-* Open files directly
-* Open output folder
-* No visible terminal windows
-
-</td>
-<td width="33%" valign="top">
-
-### ♻️ Convert
-
-* WAV
-* FLAC
-* MP3
-* MP4
-* Audio extraction
-* FFmpeg processing
-* Local conversion
-* Safe filenames
-* Bundled components
-* Multiple output qualities
-
-</td>
-<td width="33%" valign="top">
-
-### 🎛️ Analyse
-
-* BPM detection
-* Musical key and mode
-* Camelot notation
-* Confidence indicators
-* Half-time and double-time reading
-* Timeline change detection
-* Production-ready information
-* Results linked to the file
-
-</td>
-</tr>
-</table>
-
-> [!NOTE]
-> Third-party compatibility can change whenever external platforms modify their websites, authentication systems or access rules. DIAVLO WAV does not bypass DRM or paid-service protections.
-
----
-
-## `03 // SPOTIFY SMART RESOLVER` — BETA
-
-DIAVLO WAV can recognise Spotify links for:
-
-* tracks;
-* albums;
-* playlists;
-* regional links such as `/intl-es/`;
-* links with additional parameters.
-
-The Smart Resolver uses Spotify to retrieve **metadata** and help locate a compatible source for the download workflow.
-
-```text
-SPOTIFY URL
-     │
-     ▼
-CONTENT METADATA
-     │
-     ▼
-CANDIDATE SEARCH
-     │
-     ▼
-MATCH SCORING
-     │
-     ▼
-REVIEW OR DOWNLOAD
+```powershell
+irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" | iex
 ```
 
-Spotify is used only as an information source.
+To inspect the script before execution:
 
-**DIAVLO WAV does not download audio directly from Spotify, decrypt streams or bypass DRM.**
+```powershell
+$script = "$env:TEMP\diavlo-wav-install.ps1"
 
-> [!WARNING]
-> Spotify connectivity remains in beta. Some accounts may not currently be authorised because of developer application limitations.
+irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" `
+  -OutFile $script
 
-All users share the official public Client ID configured inside DIAVLO WAV. Users do not need to create their own Client ID.
-
----
-
-## `04 // SIGNAL PIPELINE`
-
-```mermaid
-flowchart LR
-    A[Media URL] --> B[Platform detection]
-    B --> C{Source type}
-    C -->|Compatible URL| D[Extraction engine]
-    C -->|Spotify| E[Smart Resolver]
-    E --> F[Candidate search]
-    F --> D
-    D --> G[Download engine]
-    G --> H{Output type}
-    H -->|Audio| I[WAV · FLAC · MP3]
-    H -->|Video| J[MP4 · compatible output]
-    I --> K[Musical analysis]
-    J --> L[Local library]
-    K --> M[BPM · Key · Camelot · Timeline]
-    M --> L
+notepad $script
+& $script
 ```
 
 ---
 
-## `05 // DESIGN AND PERFORMANCE`
+## Quick Start
 
-The current DIAVLO WAV interface focuses on simplicity, stability and performance.
+1. Create a **DIAVLO Session**.
+2. Import an audio file or use a supported download workflow.
+3. Run **Analyse**.
+4. Choose the required production workflow:
 
-The previous Liquid Glass system and its expensive visual effects have been removed in favour of a clearer and more reliable experience.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Design
-
-* Dark minimal interface
-* Opaque surfaces
-* Clear visual hierarchy
-* Consistent spacing
-* Flat controls
-* Readable typography
-* Fewer decorative elements
-* Clearer application states
-
-</td>
-<td width="50%" valign="top">
-
-### Performance
-
-* No Liquid Glass effects
-* No particles
-* No animated backgrounds
-* No excessive glow
-* No decorative animations
-* Reduced DOM depth
-* Less permanent graphical work
-* Fewer visual listeners
-* Improved WebView2 stability
-
-</td>
-</tr>
-</table>
-
-Visual quality comes from proportions, contrast, spacing and alignment rather than unnecessary graphical effects.
+   * Separate stems.
+   * Compare a reference.
+   * Extract MIDI.
+   * Process vocals.
+   * Transform a loop.
+   * Master the track.
+5. Preview the result.
+6. Export through **Export Center**.
+7. Save the session.
 
 ---
 
-## `06 // WHY DIAVLO WAV`
+## System Requirements
 
-| Capability                       | DIAVLO approach                                                         |
-| -------------------------------- | ----------------------------------------------------------------------- |
-| **Native Windows application**   | A dedicated desktop workflow instead of a maze of browser tabs.         |
-| **One-command installation**     | The latest supported release is always one command away.                |
-| **No manual dependencies**       | Essential media components are bundled with the application.            |
-| **Creator-focused intelligence** | BPM, key, Camelot and timeline information remain beside the media.     |
-| **Local-first output**           | Files are processed for the selected local destination.                 |
-| **Queue and progress**           | Tasks can be organised, monitored and cancelled inside the application. |
-| **Versioned releases**           | Every public build is distributed through traceable GitHub releases.    |
-| **Integrity verification**       | Published checksums can validate downloaded assets.                     |
-| **Signed updater**               | Supported builds can detect and install required updates.               |
-| **Optimised interface**          | A static, fast and function-focused experience.                         |
+### Windows release
+
+* Windows 10 or Windows 11.
+* 64-bit x86 processor.
+* WebView2 Runtime.
+* 8 GB RAM minimum.
+* 16 GB RAM recommended.
+* Free storage for temporary processing and optional models.
+* Internet connection for updates, model downloads and online workflows.
+* Dedicated GPU not required for standard local workflows.
+
+### Recommended for heavier processing
+
+* Modern multi-core processor.
+* 16 GB RAM or more.
+* SSD storage.
+* AVX2-capable CPU.
+* Compatible GPU or DirectML backend where supported.
+
+Demucs and AI transcription can run on CPU, but processing will take longer.
+
+### Other platforms
+
+Windows x64 is the primary supported desktop platform.
+
+Android builds may exist for development or experimental workflows, but feature availability differs from desktop because native sidecars and audio pipelines are not identical.
+
+macOS, Linux and iOS are not currently presented as verified stable release targets.
 
 ---
 
-## `07 // TECHNOLOGY CORE`
+## Technology
+
+<div align="center">
+
+![Tauri](https://img.shields.io/badge/TAURI-DESKTOP%20SHELL-24C8DB?style=for-the-badge\&logo=tauri\&logoColor=white)
+![Rust](https://img.shields.io/badge/RUST-NATIVE%20CORE-000000?style=for-the-badge\&logo=rust\&logoColor=white)
+![React](https://img.shields.io/badge/REACT-INTERFACE-0D1117?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-APPLICATION%20LOGIC-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Vite](https://img.shields.io/badge/VITE-FRONTEND-646CFF?style=for-the-badge\&logo=vite\&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFMPEG-MEDIA%20ENGINE-007808?style=for-the-badge\&logo=ffmpeg\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GITHUB%20ACTIONS-RELEASE%20PIPELINE-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
+
+</div>
 
 ```text
 DIAVLO WAV
-├── Desktop application .... Tauri 2
-├── Native core ............ Rust
-├── Interface .............. React + TypeScript
-├── Build system ........... Vite
-├── Media engine ........... FFmpeg + FFprobe
-├── Extraction ............. yt-dlp
-├── Auxiliary runtime ...... Deno
-├── Analysis ............... BPM · key · Camelot
-├── Installer .............. NSIS + PowerShell
-├── Bootstrap .............. Rust
-├── Updater ................ Signed Tauri Updater
-└── Distribution ........... GitHub Releases
+├── Desktop shell ............. Tauri 2
+├── Native core ............... Rust
+├── Interface .................. React + TypeScript
+├── Frontend build ............. Vite
+├── Audio decoding ............. Native Rust + FFmpeg
+├── Spectral analysis .......... Windowed FFT
+├── Loudness analysis .......... ITU-R BS.1770-compatible workflow
+├── Stem separation ............ Demucs local sidecars
+├── Audio-to-MIDI .............. Native SMF + optional Basic Pitch
+├── Media extraction ........... Controlled extraction sidecar
+├── Model management ........... SHA-256 verified downloads
+├── Updater .................... Signed Tauri update workflow
+└── Distribution ............... GitHub Releases
 ```
-
-This repository is the **official public release channel**. The source code and private build infrastructure may be maintained separately.
 
 ---
 
-## `08 // AUTOMATIC UPDATES`
-
-DIAVLO WAV includes a signed internal updater.
-
-When a newer compatible version is available:
+## Project Structure
 
 ```text
-APPLICATION START
-       │
-       ▼
-VERSION CHECK
-       │
-       ▼
-SIGNED DOWNLOAD
-       │
-       ▼
-VERIFICATION
-       │
-       ▼
-INSTALLATION
-       │
-       ▼
-RELAUNCH
+DIAVLO-WAV/
+├── src/                         # React and TypeScript frontend
+├── src-tauri/
+│   ├── src/                     # Rust backend and Tauri commands
+│   ├── binaries/                # Packaged sidecars
+│   ├── capabilities/            # Tauri permissions and capabilities
+│   ├── Cargo.toml
+│   └── tauri.conf.json
+├── tests/                       # Frontend and integration tests
+├── scripts/                     # Build, fixture and release tools
+├── docs/                        # Audits and technical documentation
+├── public/                      # Static assets
+├── release/                     # Local release-candidate outputs
+├── package.json
+└── README.md
 ```
 
-The update flow:
-
-* reads the official manifest;
-* compares the installed version;
-* blocks outdated versions when required;
-* downloads the signed package;
-* displays real progress;
-* installs the new version;
-* relaunches the application.
-
-Mandatory updates may include security, compatibility, stability or media engine fixes required for the application to continue working.
+Generated build folders, private signing keys, real user data, downloaded models and release binaries must not be committed unless the repository policy explicitly allows them.
 
 ---
 
-## `09 // CANARY IDENTITY` 🌋🌊
+## Development
 
-DIAVLO WAV was born in the **Canary Islands**, surrounded by volcanic landscapes, the Atlantic Ocean and a culture used to looking beyond the horizon.
+### Prerequisites
 
-```text
-VOLCANIC BLACK    The technical foundation: solid and resilient.
-ATLANTIC BLUE     The connection: open, fast and ready to travel.
-MIDNIGHT VIOLET   The identity: dark, creative and recognisable.
-ORIGIN            CANARY ISLANDS · 28°N
-DESTINATION       DESKTOPS AROUND THE WORLD
+* Node.js compatible with the committed lockfile.
+* Rust stable toolchain.
+* Cargo.
+* Microsoft C++ Build Tools.
+* Windows SDK.
+* WebView2.
+* Project-specific sidecars and test fixtures.
+
+### Install dependencies
+
+```bash
+npm install
 ```
 
-> **Built on islands. Designed without limits.**
+### Run in development
+
+```bash
+npm run tauri dev
+```
+
+### Frontend verification
+
+```bash
+npx tsc --noEmit
+npm run lint
+npm test
+```
+
+### Rust verification
+
+```bash
+cd src-tauri
+cargo fmt --check
+cargo check
+cargo clippy -- -D warnings
+cargo test
+```
+
+### Production build
+
+```bash
+npm run tauri build
+```
+
+A successful compiler exit is not enough to declare a release ready.
 
 ---
 
-## `10 // SYSTEM REQUIREMENTS`
+## Release Quality Gate
 
-| Requirement               | Supported configuration                                                       |
-| ------------------------- | ----------------------------------------------------------------------------- |
-| **Operating system**      | Windows 10 or Windows 11                                                      |
-| **Architecture**          | x64                                                                           |
-| **PowerShell**            | Windows PowerShell 5.1+ or PowerShell 7+                                      |
-| **Internet**              | Required for installation, updates and online processing                      |
-| **Storage**               | Depends on media length, playlist size and output format                      |
-| **Permissions**           | Standard installation permissions; elevation may be requested                 |
-| **External dependencies** | No manual FFmpeg, yt-dlp, Deno, Node.js, Python or Rust installation required |
+A stable release must pass the complete verification pipeline.
 
----
+Expected checks include:
 
-## `11 // AVAILABLE COMMANDS`
+* TypeScript compilation.
+* ESLint.
+* Frontend tests.
+* Rust formatting.
+* Cargo check.
+* Clippy with warnings denied.
+* Rust tests.
+* Fixture validation.
+* Unicode and long-path fixtures.
+* Sidecar presence.
+* Sidecar architecture.
+* Sidecar integrity.
+* Frontend production build.
+* Tauri production build.
+* Release smoke tests.
+* Installer presence.
+* Portable artifact presence.
+* Artifact SHA-256 generation.
+* Updater signature verification.
+* `latest.json` validation.
+* Version consistency.
+* Upgrade testing from a supported previous version.
+* Installation and uninstallation verification where required.
 
-```powershell
-diavlowav
-```
-
-Launches the application.
-
-```powershell
-diavlowav --version
-```
-
-Displays the installed version.
-
-```powershell
-diavlowav doctor
-```
-
-Checks the installation, components and main paths.
-
-```powershell
-diavlowav repair
-```
-
-Repairs or reinstalls the required components.
-
-```powershell
-diavlowav uninstall
-```
-
-Starts the uninstallation process.
+The release process is fail-closed: when a critical step fails, publishing must stop.
 
 ---
 
-## `12 // VERIFY THE RELEASE`
+## Capability Status
 
-Release assets may include SHA-256 checksum files.
+| Capability                      | Current classification            |
+| ------------------------------- | --------------------------------- |
+| Native audio decoding           | Implemented                       |
+| BPM, key and tonal analysis     | Implemented                       |
+| Loudness and technical metering | Implemented                       |
+| Windowed FFT spectral analysis  | Implemented                       |
+| Media extraction and conversion | Implemented                       |
+| DIAVLO Sessions                 | Implemented                       |
+| Standard MIDI export            | Implemented                       |
+| Spotify Smart Resolver          | Implemented; requires OAuth       |
+| Demucs stem separation          | Functional; model-dependent       |
+| Intelligent mastering           | Functional                        |
+| Audio-to-MIDI monophonic mode   | Functional                        |
+| Basic Pitch polyphonic mode     | Functional; model-dependent       |
+| Stem Surgeon                    | Functional                        |
+| Beat Autopsy                    | Functional                        |
+| Vocal Forge                     | Functional                        |
+| Loop Alchemist                  | Functional                        |
+| Local Sample Finder             | Functional                        |
+| DIAVLO DNA                      | Functional                        |
+| FL Studio Bridge                | Functional file-exchange workflow |
+| Model Manager                   | Functional; optional models       |
+| Export Center                   | Implemented                       |
+| Visual Lab                      | Import/export workflow            |
+| Android                         | Experimental                      |
+| macOS, Linux and iOS            | Not verified as stable targets    |
 
-Calculate the installer hash with:
-
-```powershell
-Get-FileHash ".\DiavloWAV-Setup-x64.exe" -Algorithm SHA256
-```
-
-Compare the returned value with the checksum published in the matching GitHub release.
-
----
-
-## `13 // TROUBLESHOOTING`
-
-<details>
-<summary><strong>The automatic update does not appear</strong></summary>
-
-<br />
-
-1. Completely close DIAVLO WAV.
-2. Check that it is not still running in Task Manager.
-3. Open the installed application again.
-4. Check your Internet connection.
-5. Run:
-
-```powershell
-diavlowav doctor
-```
-
-If the issue continues:
-
-```powershell
-diavlowav repair
-```
-
-</details>
-
-<details>
-<summary><strong>Spotify does not allow an account to connect</strong></summary>
-
-<br />
-
-Spotify integration remains in beta.
-
-Some accounts may not currently be authorised because of developer application limitations.
-
-Users should not enter a different Client ID. DIAVLO WAV uses one official public Client ID.
-
-Features that do not depend on Spotify can continue to be used normally.
-
-</details>
-
-<details>
-<summary><strong>PowerShell blocks the command</strong></summary>
-
-<br />
-
-Run it from a normal PowerShell window.
-
-If a company or school policy blocks scripts, use the traditional `.exe` installer instead of reducing the system security policy globally.
-
-</details>
-
-<details>
-<summary><strong>A source stops working</strong></summary>
-
-<br />
-
-External websites change regularly.
-
-Install the latest DIAVLO WAV release first. Some sources may require authentication or may be unavailable because of regional, account or DRM restrictions.
-
-</details>
-
-<details>
-<summary><strong>A download or conversion fails</strong></summary>
-
-<br />
-
-Confirm that:
-
-* the URL opens normally;
-* enough disk space is available;
-* the destination folder is writable;
-* the latest version is installed;
-* the selected format is compatible;
-* the content is available in your region;
-* the account has access;
-* the source is not DRM-protected.
-
-Preserve the complete error message when reporting the problem.
-
-</details>
+Feature status should always be determined by the current implementation audit and release tests, not merely by the presence of interface code.
 
 ---
 
-## `14 // SECURITY & PRIVACY`
+## Known Limitations
 
-* Processing is designed around a **local desktop workflow**.
-* Files are saved to the destination selected by the user.
-* Download only from this repository and its official release assets.
-* Verify checksums whenever available.
-* Never trust installers reuploaded to third-party websites.
-* Do not publish passwords, cookies, private tokens or sensitive data in reports.
-* Review the installer script locally whenever maximum transparency is needed.
-* DIAVLO WAV does not require an embedded Spotify Client Secret.
-* Credentials should never be stored as plain text.
-* Updates are distributed through signed packages.
-
-For a potential vulnerability, avoid publishing sensitive details in a public issue and contact the maintainer privately through the GitHub profile.
-
----
-
-## `15 // PLATFORM STATUS`
-
-| Platform                | Status         |
-| ----------------------- | -------------- |
-| **Windows 10/11 x64**   | Available      |
-| **macOS Apple Silicon** | In development |
-| **macOS Intel**         | In development |
-| **Linux**               | Not announced  |
-
-The future macOS release will use separate DMG installers for Apple Silicon and Intel.
-
-Until those installers appear inside an official release, do not download unofficial macOS versions from third-party websites.
+* Polyphonic Audio-to-MIDI does not fully preserve pitch bends or vibrato curves.
+* Polyphonic transcription performs best with isolated instruments.
+* Strong harmonics may be detected as additional MIDI notes.
+* Demucs processing time depends heavily on song duration and hardware.
+* CPU-only stem separation can be slow.
+* Optional models require an initial download.
+* Spotify metadata resolution requires interactive OAuth authentication.
+* External platforms can change their access rules without notice.
+* The FL Studio Bridge prepares files but does not remotely control FL Studio.
+* Visual Lab may rely on import and export instead of direct third-party integration.
+* Windows may show an unknown-publisher warning when a build is not Authenticode-signed.
+* Experimental mobile builds do not provide every desktop feature.
+* A portable executable may still require packaged or adjacent sidecars for specific workflows.
 
 ---
 
-## `16 // RELEASE ROADMAP`
+## Troubleshooting
 
-```text
-[✓] Native Windows installer
-[✓] PowerShell installation
-[✓] Versioned GitHub releases
-[✓] Audio and video output workflows
-[✓] Playlist handling
-[✓] Queue, progress and cancellation
-[✓] BPM, key and Camelot analysis
-[✓] Timeline change detection
-[✓] Spotify Smart Resolver beta
-[✓] Signed mandatory updater
-[✓] Minimal interface without Liquid Glass
-[✓] Decorative animations removed
-[✓] Bundled media components
-[ ] Expand public Spotify compatibility
-[ ] Expanded diagnostics and repair tooling
-[ ] Deeper queue and library controls
-[ ] Apple Silicon DMG installer
-[ ] Intel Mac DMG installer
-[ ] macOS signing and notarisation
-[ ] Cross-platform updater
-[ ] More performance and reliability passes
-```
+### A model appears as corrupt
 
-Roadmap items describe direction, not guaranteed dates. Releases ship when they meet the required quality bar.
+Remove the model from Model Manager and install it again. DIAVLO WAV validates downloaded models before allowing their execution.
+
+### FFmpeg or a conversion operation fails
+
+Confirm that the official application build contains the expected sidecar. Avoid mixing the packaged engine with an unrelated global FFmpeg installation.
+
+### Stem separation does not start
+
+Check that:
+
+* The required model is installed.
+* The model checksum is valid.
+* Sufficient free storage is available.
+* The input path is accessible.
+* No previous separation job is still active.
+
+### Spotify resolution is unavailable
+
+Sign in through the authorized Spotify OAuth flow and confirm that the configured Spotify application is active.
+
+DIAVLO WAV cannot bypass Spotify authentication or DRM.
+
+### A session references a moved file
+
+Use the locate or replace action to reconnect the file. The session should not need to be recreated unless recovery fails.
+
+### Processing appears frozen
+
+Review the active job status. Cancel the operation and retry. Controlled failures should clean temporary outputs without modifying the source file.
+
+### The updater cannot install a release
+
+Check:
+
+* Internet connection.
+* Available disk space.
+* File permissions.
+* Update signature.
+* Correct platform artifact.
+* Version metadata.
+
+The installed working version should remain available after a failed update.
 
 ---
 
-## `17 // RESPONSIBLE USE`
+## Responsible Use
 
-DIAVLO WAV is a technical media utility.
+Use DIAVLO WAV only with:
 
-Use it only with:
+* Content you created.
+* Content you own.
+* Public-domain material.
+* Content you are legally authorized to download, convert or process.
+* Media made available under a compatible license.
 
-* content you own;
-* material you created;
-* public-domain content;
-* material with a compatible licence;
-* content you are legally authorised to download and process.
-
-The project is not affiliated with YouTube, Spotify, SoundCloud, TikTok, X, Reddit, Apple, Tidal or other platforms.
+DIAVLO WAV is not affiliated with Spotify, YouTube, SoundCloud, TikTok, X, Reddit, Apple, Tidal or other third-party services.
 
 Product names and trademarks belong to their respective owners.
 
-DIAVLO WAV is not designed to:
+The application is not intended to:
 
-* avoid subscriptions;
-* decrypt DRM;
-* bypass access controls;
-* download protected streams;
-* infringe copyright.
+* Circumvent DRM.
+* Bypass subscriptions.
+* Break platform access controls.
+* Obtain protected media without authorization.
+* Remove copyright protection.
+* Conceal the origin of copyrighted material.
 
-The user is responsible for how the tool is used.
+The user is responsible for complying with applicable laws and platform terms.
+
+---
+
+## Security Reporting
+
+Do not disclose a security vulnerability through a public issue containing sensitive information.
+
+A useful private report should include:
+
+* Affected version.
+* Reproduction steps.
+* Expected behavior.
+* Actual behavior.
+* Potential impact.
+* Relevant sanitized logs.
+* Suggested mitigation when known.
+
+Never include:
+
+* Private audio.
+* Signing keys.
+* Passwords.
+* OAuth tokens.
+* Personal paths.
+* Private model files.
+* User databases.
+
+---
+
+## Contributing
+
+Before submitting a contribution:
+
+1. Preserve the existing visual language.
+2. Avoid destructive repository operations.
+3. Add tests for new behavior.
+4. Run frontend and Rust verification.
+5. Do not introduce hidden network activity.
+6. Do not commit credentials or signing keys.
+7. Do not commit private models or real user files.
+8. Document limitations honestly.
+9. Preserve supported session formats.
+10. Keep original audio non-destructive by default.
+
+A visual placeholder must not be classified as a completed functional module.
+
+---
+
+## License
+
+See the [`LICENSE`](LICENSE) file included with the repository.
+
+Third-party libraries, sidecars and models retain their respective licenses.
+
+Required notices, authorship and model-source information must remain available in the project documentation and release packages.
+
+---
+
+## Credits
+
+Built from the Canary Islands for producers who want deeper control without leaving the creative zone.
+
+DIAVLO WAV uses open-source technologies and optional third-party audio models. Respect to every developer, researcher and creator whose work makes independent tools like this possible.
 
 ---
 
 <div align="center">
 
-## `LA PRÓXIMA SEÑAL ES TUYA // THE NEXT SIGNAL IS YOURS`
+## DIAVLO WAV
 
-[![Descargar](https://img.shields.io/badge/DESCARGAR-LATEST%20RELEASE-A855F7?style=for-the-badge\&logo=github\&logoColor=white\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
-[![Informar problema](https://img.shields.io/badge/REPORTAR-ISSUE-ef4444?style=for-the-badge\&logo=github\&logoColor=white\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases/issues)
-[![Dar estrella](https://img.shields.io/badge/STAR-DIAVLO%20WAV-facc15?style=for-the-badge\&logo=github\&logoColor=09090b\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases)
+### NO SMOKE. NO FAKE PROGRESS. JUST SIGNAL TURNED INTO ACTION.
+
+[![Download Latest](https://img.shields.io/badge/DOWNLOAD-LATEST%20RELEASE-A855F7?style=for-the-badge\&logo=github\&logoColor=white\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
+[![Report Issue](https://img.shields.io/badge/REPORT-AN%20ISSUE-ef4444?style=for-the-badge\&logo=github\&logoColor=white\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases/issues)
+[![Star Project](https://img.shields.io/badge/STAR-THE%20PROJECT-facc15?style=for-the-badge\&logo=github\&logoColor=09090b\&labelColor=09090B)](https://github.com/Nikolai-coder/diavlo-wav-releases)
 
 <br />
 
-**Creado por / Built by [Nikolai-coder](https://github.com/Nikolai-coder).**
-**Desarrollado desde las Islas Canarias · Built in the Canary Islands.**
+**Built in the Canary Islands. Ready for the next signal.**
 
-`DIAVLO WAV // DOWNLOAD · CONVERT · ANALYSE · CREATE`
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=145&section=footer&color=0:030303,38:3b0764,72:0369a1,100:22d3ee&animation=fadeIn" alt="Pie de DIAVLO WAV" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:050505,45:4c0070,100:00d4ff&animation=fadeIn" alt="DIAVLO WAV footer" />
 
 </div>
