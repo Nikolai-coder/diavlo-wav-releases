@@ -1,304 +1,386 @@
+<!--
+  DIAVLO WAV — Official Releases README
+  Repository: https://github.com/Nikolai-coder/diavlo-wav-releases
+  Rename this file to README.md when copying it into the repository root.
+-->
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:030303,28:160020,58:4c0070,82:0369a1,100:22d3ee&text=DIAVLO%20WAV&fontColor=ffffff&fontSize=66&fontAlignY=35&desc=AUDIO%20INTELLIGENCE%20FOR%20PRODUCERS&descAlignY=56&descSize=17&animation=fadeIn" alt="DIAVLO WAV" />
+<img width="100%" src="assets/readme/diavlo-wav-hero.gif" alt="Animated DIAVLO WAV signal interface" />
+
+<br />
 
 <a href="https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2400&pause=650&color=C084FC&center=true&vCenter=true&repeat=true&width=980&height=58&lines=Download.+Analyse.+Separate.+Create.;From+raw+audio+to+production-ready+assets.;Local-first+processing.+No+cloud+maze.;Built+in+the+Canary+Islands." alt="DIAVLO WAV animated description" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2200&pause=500&color=C084FC&center=true&vCenter=true&repeat=true&width=980&height=48&lines=Your+next+signal+starts+here.;Download.+Convert.+Analyse.+Create.;From+media+link+to+production-ready+file.;Native+Windows+workflow.+Zero+browser+maze." alt="Animated DIAVLO WAV tagline" />
 </a>
 
 <br />
 
-### Estación de trabajo local-first para Windows dirigida a productores, beatmakers, artistas e ingenieros de audio.
-
-**Descargar · Convertir · Analizar · Separar · Reparar · Transcribir · Masterizar · Exportar**
-
-[Descargar última versión](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest) ·
-[Ver todas las versiones](https://github.com/Nikolai-coder/diavlo-wav-releases/releases) ·
-[Reportar un problema](https://github.com/Nikolai-coder/diavlo-wav-releases/issues)
-
-</div>
-
----
-
-## Sobre DIAVLO WAV
-
-**DIAVLO WAV** es una aplicación de escritorio nativa diseñada para transformar audio y medios en material listo para producción sin interrumpir el flujo creativo.
-
-Combina extracción de medios, conversión de formatos, análisis profesional de audio, separación de stems, masterización inteligente, Audio-to-MIDI, comparación de referencias, gestión de sesiones y herramientas de producción en una sola aplicación.
-
-DIAVLO WAV no intenta reemplazar tu DAW. Trabaja junto a él.
-
-Puedes usarlo para:
-
-* Obtener y convertir medios accesibles legalmente.
-* Analizar características técnicas y musicales.
-* Separar voces, batería, bajo e instrumental.
-* Extraer MIDI de melodías o instrumentos.
-* Comparar mezclas con referencias.
-* Preparar voces y loops.
-* Crear cadenas de mastering.
-* Organizar stems, MIDI y exportaciones.
-* Transferir material limpio a FL Studio, Ableton u otro DAW.
-
-La aplicación sigue una filosofía **local-first**: el procesamiento ocurre en tu equipo siempre que sea posible.
-
----
-
-## Version 1.0
-
-DIAVLO WAV `1.0.0` representa el primer flujo completo de producción del proyecto.
-
-Incluye:
-
-* Sesiones persistentes.
-* Análisis nativo en Rust.
-* Separación Demucs local.
-* Mastering inteligente con A/B.
-* Audio-to-MIDI.
-* Spotify Smart Resolver.
-* Model Manager con verificación SHA-256.
-* Herramientas como Beat Autopsy, DIAVLO DNA y Vocal Forge.
-* Exportaciones organizadas.
-* Sistema de actualizaciones firmado.
-
----
-
-## Workspaces principales
-
-### Home
-
-Centro de acceso rápido a sesiones, archivos recientes y estado del sistema.
-
-### Download
-
-Descarga medios desde fuentes compatibles con control total de formato, calidad y progreso.
-
-### Convert
-
-Conversión de audio y video usando FFmpeg integrado.
-
-### Analyse
-
-Análisis técnico y musical completo (BPM, tonalidad, loudness, espectro, etc.).
-
-### Stems
-
-Separación local de audio en stems usando modelos Demucs.
-
-### Master
-
-Creación de cadenas de mastering con preview A/B.
-
----
-
-## Herramientas de producción
-
-* **Stem Surgeon**: edición de stems.
-* **Reference Ghost**: comparación con referencias.
-* **Audio-to-MIDI**: conversión a MIDI.
-* **Beat Autopsy**: análisis estructural.
-* **Vocal Forge**: procesamiento vocal.
-* **Loop Alchemist**: transformación de loops.
-* **Sample Finder**: búsqueda local de samples.
-* **DIAVLO DNA**: perfil de producción.
-* **FL Studio Bridge**: exportación organizada.
-* **Export Center**: paquetes finales.
-* **Visual Lab**: integración audiovisual.
-
----
-
-## Privacidad y seguridad
-
-* Procesamiento local por defecto.
-* Sin subida de audio.
-* Verificación de modelos.
-* Actualizaciones firmadas.
-* Sin telemetría oculta.
-
----
-
-## Instalación
-
-### Windows
-
-1. Descargar desde GitHub Releases.
-2. Ejecutar instalador.
-3. Abrir DIAVLO WAV.
-4. Instalar modelos opcionales.
-
----
-
-## Requisitos
-
-* Windows 10/11
-* CPU x64
-* 8GB RAM mínimo (16GB recomendado)
-* WebView2
-* Conexión a internet para funciones online
-
----
-
-## Tecnología
-
-```text
-DIAVLO WAV
-├── Tauri 2
-├── Rust
-├── React + TypeScript
-├── Vite
-├── FFmpeg
-├── Demucs
-├── Basic Pitch
-└── GitHub Releases
-```
-
----
-
-## Uso responsable
-
-Usa DIAVLO WAV solo con contenido legal.
-
-No está diseñado para:
-
-* Saltar DRM
-* Descargar contenido protegido ilegalmente
-* Evadir plataformas
-
----
-
-## Créditos
-
-Desarrollado en Canarias para productores que buscan control real.
-
----
-
-<div align="center">
-
-## DIAVLO WAV
-
-### SIN HUMO. SIN FALSOS AVANCES. SOLO SEÑAL CONVERTIDA EN ACCIÓN.
+[![Latest Release](https://img.shields.io/github/v/release/Nikolai-coder/diavlo-wav-releases?display_name=tag&sort=semver&style=for-the-badge&logo=github&logoColor=white&label=LATEST&labelColor=08080d&color=a855f7)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Nikolai-coder/diavlo-wav-releases/total?style=for-the-badge&logo=windows11&logoColor=white&label=DOWNLOADS&labelColor=08080d&color=06b6d4)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases)
+[![Platform](https://img.shields.io/badge/WINDOWS-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows11&logoColor=white&labelColor=08080d)](#system-requirements)
+[![Architecture](https://img.shields.io/badge/ARCHITECTURE-x64-18181b?style=for-the-badge&logo=windows&logoColor=white&labelColor=08080d)](#system-requirements)
+[![Release Date](https://img.shields.io/github/release-date/Nikolai-coder/diavlo-wav-releases?style=for-the-badge&labelColor=08080d&color=22c55e)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
 
 <br />
 
-**Built in the Canary Islands. Ready for the next signal.**
+### Native media extraction, conversion and musical intelligence for Windows.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:050505,45:4c0070,100:00d4ff&animation=fadeIn" alt="DIAVLO WAV footer" />
+**One application. One command. One focused creative workflow.**
+
+<br />
+
+[![Download Latest](https://img.shields.io/badge/DOWNLOAD%20LATEST-ENTER%20DIAVLO-A855F7?style=for-the-badge&logo=github&logoColor=white&labelColor=08080D)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
+[![Windows Installer](https://img.shields.io/badge/WINDOWS%20SETUP-DOWNLOAD-0078D6?style=for-the-badge&logo=windows11&logoColor=white&labelColor=08080D)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/DiavloWAV-Setup-x64.exe)
+[![Report Issue](https://img.shields.io/badge/REPORT-AN%20ISSUE-EF4444?style=for-the-badge&logo=github&logoColor=white&labelColor=08080D)](https://github.com/Nikolai-coder/diavlo-wav-releases/issues)
+[![Star Repository](https://img.shields.io/badge/STAR-SUPPORT%20THE%20PROJECT-FACC15?style=for-the-badge&logo=github&logoColor=09090b&labelColor=08080D)](https://github.com/Nikolai-coder/diavlo-wav-releases)
+
+<br />
+
+[`INSTALL`](#installation)　•　[`CAPABILITIES`](#capabilities)　•　[`PIPELINE`](#signal-pipeline)　•　[`SECURITY`](#security--privacy)　•　[`SUPPORT`](#troubleshooting)
 
 </div>
 
----
+<img width="100%" src="assets/readme/signal-divider.gif" alt="Animated DIAVLO signal divider" />
 
-# ENGLISH VERSION
+<a id="installation"></a>
 
-<div align="center">
+## `01 // INSTALLATION`
 
-### A local-first Windows workstation for producers, beatmakers, artists and audio engineers.
+### One command. Latest supported build.
 
-**Download · Convert · Analyse · Separate · Repair · Transcribe · Master · Export**
+Open **PowerShell** and run:
 
-</div>
-
----
-
-## About DIAVLO WAV
-
-**DIAVLO WAV** is a native desktop application designed to transform audio into production-ready material without breaking creative flow.
-
-It combines extraction, conversion, analysis, stem separation, mastering, MIDI extraction and production tools in one place.
-
-It works alongside your DAW.
-
----
-
-## Version 1.0
-
-Includes:
-
-* Persistent sessions
-* Native Rust analysis
-* Local Demucs stems
-* Intelligent mastering
-* Audio-to-MIDI
-* Spotify Smart Resolver
-* Model Manager
-* Producer tools
-* Signed updates
-
----
-
-## Main Workspaces
-
-* Home
-* Download
-* Convert
-* Analyse
-* Stems
-* Master
-
----
-
-## Producer Tools
-
-* Stem Surgeon
-* Reference Ghost
-* Audio-to-MIDI
-* Beat Autopsy
-* Vocal Forge
-* Loop Alchemist
-* Sample Finder
-* DIAVLO DNA
-* FL Studio Bridge
-* Export Center
-* Visual Lab
-
----
-
-## Privacy
-
-* Local processing
-* No hidden uploads
-* Verified models
-* Signed updates
-
----
-
-## Installation
-
-Download from GitHub Releases and install.
-
----
-
-## Requirements
-
-* Windows 10/11
-* x64 CPU
-* 8GB RAM minimum
-* WebView2
-
----
-
-## Technology
-
-```text
-Tauri + Rust + React + FFmpeg + Demucs
+```powershell
+irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" | iex
 ```
 
----
+The bootstrap retrieves the official installer script from the **latest GitHub release** and starts the supported Windows installation flow.
 
-## Responsible Use
+> [!IMPORTANT]
+> Install DIAVLO WAV only from this repository or its official GitHub release assets.
 
-Use only legal content.
+<details>
+<summary><strong>Inspect the installer before running it</strong></summary>
 
----
+<br />
 
-## Credits
+```powershell
+$script = "$env:TEMP\diavlowav-install.ps1"
 
-Built in the Canary Islands.
+irm "https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest/download/install.ps1" `
+  -OutFile $script
 
----
+notepad $script
+& $script
+```
+
+This stores the official script locally, opens it for inspection and executes it only when you choose to continue.
+
+</details>
+
+<details>
+<summary><strong>Use the traditional Windows installer</strong></summary>
+
+<br />
+
+1. Open the [latest release](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest).
+2. Download `DiavloWAV-Setup-x64.exe`.
+3. Run the installer.
+4. Launch DIAVLO WAV.
+
+</details>
+
+<a id="capabilities"></a>
+
+## `02 // CAPABILITIES`
+
+DIAVLO WAV compresses the distance between **finding media** and **using it inside a creative session**. Extraction, conversion, local file control and musical analysis live inside one native Windows workspace.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### `↓` EXTRACT
+
+- Individual media URLs
+- Playlist workflows
+- Live progress states
+- Local destination control
+- Extractor-compatible sources
+- Native desktop experience
+
+</td>
+<td width="33%" valign="top">
+
+### `↻` CONVERT
+
+- WAV
+- FLAC
+- MP3
+- MP4
+- Audio extraction
+- FFmpeg media processing
+
+</td>
+<td width="33%" valign="top">
+
+### `◈` ANALYSE
+
+- BPM detection
+- Musical key and mode
+- Camelot notation
+- Confidence indicators
+- Half-time / double-time reading
+- Timeline change detection
+
+</td>
+</tr>
+</table>
+
+> [!NOTE]
+> Source compatibility can change when third-party platforms update their websites or access rules. DIAVLO WAV does not bypass DRM or paid-service protections.
+
+<img width="100%" src="assets/readme/signal-divider.gif" alt="Animated DIAVLO signal divider" />
+
+<a id="signal-pipeline"></a>
+
+## `03 // SIGNAL PIPELINE`
 
 <div align="center">
 
-### NO SMOKE. NO FAKE PROGRESS. JUST SIGNAL TURNED INTO ACTION.
+<img width="100%" src="assets/readme/signal-pipeline.gif" alt="Animated DIAVLO WAV media pipeline" />
+
+</div>
+
+```text
+┌─ DIAVLO SIGNAL / ANALYSIS CORE ──────────────────────────────────┐
+│                                                                  │
+│  BPM             140                                             │
+│  KEY             F# MINOR                                        │
+│  CAMELOT         11A                                             │
+│  CONFIDENCE      ██████████████████░░  91%                       │
+│                                                                  │
+│  TIMELINE                                                        │
+│  00:00 ━━━━━━━━━━━ 01:12    140 BPM · F# Minor                   │
+│  01:12 ━━━━━━━━━━━ 02:26    155 BPM · F# Minor                   │
+│                                                                  │
+│  DETECTION       BPM SWITCH                                      │
+│  STATUS          ANALYSIS COMPLETE                               │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+## `04 // WHY DIAVLO WAV`
+
+| Signal | DIAVLO approach |
+|:---|:---|
+| **Native desktop** | A dedicated Windows workflow instead of a maze of browser tabs. |
+| **One-command install** | The latest supported release is always one command away. |
+| **Creator intelligence** | BPM, key, Camelot and timeline data stay beside the media. |
+| **Local-first output** | Your files land in the local destination you choose. |
+| **Traceable releases** | Public builds ship through versioned GitHub Releases. |
+| **Integrity checks** | Published SHA-256 checksums can validate release assets. |
+| **Mandatory updater** | Supported builds can detect and install required updates. |
+
+<div align="center">
+
+> **LESS FRICTION // MORE SIGNAL // FASTER CREATION**
+
+</div>
+
+## `05 // TECHNOLOGY CORE`
+
+<div align="center">
+
+![Rust](https://img.shields.io/badge/RUST-NATIVE%20CORE-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Tauri](https://img.shields.io/badge/TAURI-DESKTOP%20ENGINE-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
+![React](https://img.shields.io/badge/REACT-INTERFACE-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TYPESCRIPT-APPLICATION%20LOGIC-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFMPEG-MEDIA%20ENGINE-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![PowerShell](https://img.shields.io/badge/POWERSHELL-INSTALLER-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GITHUB%20ACTIONS-RELEASE%20PIPELINE-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+</div>
+
+```text
+DIAVLO WAV
+├── Desktop shell ........ Tauri
+├── Native core .......... Rust
+├── Interface ............ React + TypeScript
+├── Media pipeline ....... FFmpeg + extraction tooling
+├── Analysis layer ....... BPM · key · structural detection
+├── Installer ............ PowerShell + Windows setup
+├── Updater .............. Signed release/update workflow
+└── Distribution ......... GitHub Releases
+```
+
+> [!TIP]
+> This repository is the **official public release channel**. The application source can be maintained separately.
+
+## `06 // LIVE RELEASE TELEMETRY`
+
+<div align="center">
+
+[![Release](https://img.shields.io/github/v/release/Nikolai-coder/diavlo-wav-releases?display_name=tag&sort=semver&style=for-the-badge&color=a855f7&labelColor=08080d)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
+[![Release Date](https://img.shields.io/github/release-date/Nikolai-coder/diavlo-wav-releases?style=for-the-badge&color=06b6d4&labelColor=08080d)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/Nikolai-coder/diavlo-wav-releases/total?style=for-the-badge&color=7c3aed&labelColor=08080d)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/Nikolai-coder/diavlo-wav-releases?style=for-the-badge&color=22c55e&labelColor=08080d)](https://github.com/Nikolai-coder/diavlo-wav-releases/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/Nikolai-coder/diavlo-wav-releases?style=for-the-badge&color=f97316&labelColor=08080d)](https://github.com/Nikolai-coder/diavlo-wav-releases)
+[![Issues](https://img.shields.io/github/issues/Nikolai-coder/diavlo-wav-releases?style=for-the-badge&color=ef4444&labelColor=08080d)](https://github.com/Nikolai-coder/diavlo-wav-releases/issues)
+
+</div>
+
+<a id="system-requirements"></a>
+
+## `07 // SYSTEM REQUIREMENTS`
+
+| Requirement | Supported configuration |
+|:---|:---|
+| **Operating system** | Windows 10 or Windows 11 |
+| **Architecture** | x64 |
+| **PowerShell** | Windows PowerShell 5.1+ or PowerShell 7+ |
+| **Internet** | Required for installation, updates and online extraction |
+| **Storage** | Depends on media length, playlist size and output format |
+| **Permissions** | Standard installer permissions; elevation may be requested when required |
+
+## `08 // VERIFY THE RELEASE`
+
+Release assets can include SHA-256 checksum files. Calculate the Windows installer hash with:
+
+```powershell
+Get-FileHash ".\DiavloWAV-Setup-x64.exe" -Algorithm SHA256
+```
+
+Compare the returned value with the checksum published in the matching GitHub release.
+
+<details>
+<summary><strong>Automate the checksum comparison</strong></summary>
+
+<br />
+
+```powershell
+$installer = ".\DiavloWAV-Setup-x64.exe"
+$checksumFile = ".\DiavloWAV-Setup-x64.exe.sha256"
+
+$actual = (Get-FileHash $installer -Algorithm SHA256).Hash.ToLower()
+$expected = ((Get-Content $checksumFile -Raw) -split '\s+')[0].Trim().ToLower()
+
+if ($actual -eq $expected) {
+    Write-Host "DIAVLO WAV integrity verified." -ForegroundColor Green
+} else {
+    Write-Error "Checksum mismatch. Do not execute this installer."
+}
+```
+
+</details>
+
+<a id="troubleshooting"></a>
+
+## `09 // TROUBLESHOOTING`
+
+<details>
+<summary><strong>PowerShell blocks the command</strong></summary>
+
+<br />
+
+Run it in a normal PowerShell window. If a company or school policy blocks scripts, use the traditional `.exe` installer from the latest release instead of weakening the machine's global security policy.
+
+</details>
+
+<details>
+<summary><strong>A source stops working</strong></summary>
+
+<br />
+
+Third-party websites change regularly. Install the latest DIAVLO WAV release first. Some sources can require authentication or cookies, and others may be unavailable because of regional, account or DRM restrictions.
+
+</details>
+
+<details>
+<summary><strong>A download or conversion fails</strong></summary>
+
+<br />
+
+Confirm that:
+
+- the URL opens normally in your browser;
+- you have enough free disk space;
+- the destination folder is writable;
+- the latest application version is installed;
+- the selected output is compatible with the source.
+
+Retry once and preserve the complete error message when [reporting the issue](https://github.com/Nikolai-coder/diavlo-wav-releases/issues).
+
+</details>
+
+<details>
+<summary><strong>The application requests a mandatory update</strong></summary>
+
+<br />
+
+Complete the update from the in-app updater. Mandatory releases can contain compatibility, security or media-engine changes required for the application to continue operating correctly.
+
+</details>
+
+<img width="100%" src="assets/readme/signal-divider.gif" alt="Animated DIAVLO signal divider" />
+
+<a id="security--privacy"></a>
+
+## `10 // SECURITY & PRIVACY`
+
+- Processing is designed around a **local desktop workflow**.
+- Download only from this repository and its official release assets.
+- Verify checksums when available.
+- Never trust installers reuploaded to third-party websites.
+- Never paste passwords, cookies, private tokens or secrets into issue reports.
+- Inspect the installer script locally whenever you need maximum transparency.
+
+For a potential security vulnerability, avoid publishing sensitive exploit details in a public issue. Contact the maintainer privately through the available [GitHub profile channels](https://github.com/Nikolai-coder).
+
+## `11 // RELEASE ROADMAP`
+
+```text
+[✓] Native Windows installer
+[✓] PowerShell bootstrap installation
+[✓] Versioned GitHub release pipeline
+[✓] Audio and video output workflows
+[✓] Playlist handling
+[✓] BPM, key and Camelot analysis
+[✓] Timeline and musical change detection
+[✓] Mandatory in-app update flow
+[ ] Expanded diagnostics and repair tooling
+[ ] Deeper queue and library controls
+[ ] Broader analysis visualisation
+[ ] More performance and reliability passes
+```
+
+Roadmap items describe direction, not guaranteed dates. Releases ship when they meet the required quality bar.
+
+## `12 // RESPONSIBLE USE`
+
+DIAVLO WAV is a technical media utility. Use it only for content you own, created yourself, that is in the public domain or that you are legally authorised to download and process.
+
+The project is not affiliated with YouTube, Spotify, SoundCloud, TikTok, X, Reddit, Apple, Tidal or other third-party platforms. Product names and trademarks belong to their respective owners.
+
+DIAVLO WAV does not promise access to DRM-protected streams and is not intended to circumvent access controls, subscriptions or copyright protections.
+
+<div align="center">
+
+<br />
+
+[![Download Latest](https://img.shields.io/badge/DOWNLOAD-LATEST%20RELEASE-A855F7?style=for-the-badge&logo=github&logoColor=white&labelColor=08080D)](https://github.com/Nikolai-coder/diavlo-wav-releases/releases/latest)
+[![Report Issue](https://img.shields.io/badge/REPORT-AN%20ISSUE-EF4444?style=for-the-badge&logo=github&logoColor=white&labelColor=08080D)](https://github.com/Nikolai-coder/diavlo-wav-releases/issues)
+[![Star Project](https://img.shields.io/badge/STAR-THE%20PROJECT-FACC15?style=for-the-badge&logo=github&logoColor=09090b&labelColor=08080D)](https://github.com/Nikolai-coder/diavlo-wav-releases)
+
+<br />
+
+**Built by [Nikolai-coder](https://github.com/Nikolai-coder).**
+
+`DIAVLO WAV // DOWNLOAD · CONVERT · ANALYSE · CREATE`
+
+<br />
+
+<img width="100%" src="assets/readme/diavlo-wav-footer.gif" alt="Animated DIAVLO WAV footer" />
 
 </div>
