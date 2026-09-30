@@ -39,34 +39,46 @@ It is built as a product, with its own interface, its own type and its own motio
 
 ## What it does
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/stems.webp" alt="Stem separation with a multitrack player" />
-      <h3>Stems</h3>
-      Local separation with <b>Hybrid Transformer Demucs v4</b>. Vocals, drums, bass and other, plus an instrumental derived by exact sample-wise sum. A synchronised multitrack player with mute, solo and volume, individual export and ZIP. Model weights are verified by SHA-256, progress is real, and a reconstruction check tells you how faithful the result is.
-      <br /><br />
-      <b>Six sources</b> (adding guitar and piano) are built and tested on a development branch and planned for v1.3.1. They are not in the current release.
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/master.webp" alt="Mastering with measured before and after loudness" />
-      <h3>Mastering</h3>
-      Measurement first, then an adaptive plan: material that is already in good shape receives less processing, and every decision is written to a log. EBU R128 integrated, short-term, momentary and LRA, true peak verified on the exported file, presets (Balanced, Loud, Dynamic, Club, Streaming), WAV, FLAC, MP3, AAC, Opus and AIFF export, and A/B comparison at matched loudness. The original is never modified.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/models.webp" alt="Model browser rating every model against the machine" />
-      <h3>Model browser</h3>
-      A searchable catalogue that rates every model against your processor, memory and disk with a crystal traffic light: green recommended, amber possible but slow, red not recommended. Only models the bundled engines can actually run are offered for download. All current engines run on the CPU, and the interface says so.
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/midi.webp" alt="Basic Pitch audio-to-MIDI note roll" />
-      <h3>Audio to MIDI</h3>
-      Melody, bass, drums and optional polyphonic transcription with Basic Pitch, previewed as a note roll before export.
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<img src="assets/stems.webp" alt="Stem separation with a multitrack player" width="86%" />
+
+<h3>Stems</h3>
+
+Local separation with <b>Hybrid Transformer Demucs v4</b>. Vocals, drums, bass and other, plus an instrumental derived by exact sample-wise sum. A synchronised multitrack player with mute, solo and volume, individual export and ZIP. Model weights are verified by SHA-256, progress is real, and a reconstruction check tells you how faithful the result is.<br /><br /><b>Six sources</b> (adding guitar and piano) are built and tested on a development branch and planned for v1.3.1. They are not in the current release.
+
+</div>
+
+<div align="center">
+
+<img src="assets/master.webp" alt="Mastering with measured before and after loudness" width="86%" />
+
+<h3>Mastering</h3>
+
+Measurement first, then an adaptive plan: material that is already in good shape receives less processing, and every decision is written to a log. EBU R128 integrated, short-term, momentary and LRA, true peak verified on the exported file, presets (Balanced, Loud, Dynamic, Club, Streaming), WAV, FLAC, MP3, AAC, Opus and AIFF export, and A/B comparison at matched loudness. The original is never modified.
+
+</div>
+
+<div align="center">
+
+<img src="assets/models.webp" alt="Model browser rating every model against the machine" width="86%" />
+
+<h3>Model browser</h3>
+
+A searchable catalogue that rates every model against your processor, memory and disk with a crystal traffic light: green recommended, amber possible but slow, red not recommended. Only models the bundled engines can actually run are offered for download. All current engines run on the CPU, and the interface says so.
+
+</div>
+
+<div align="center">
+
+<img src="assets/midi.webp" alt="Basic Pitch audio-to-MIDI note roll" width="86%" />
+
+<h3>Audio to MIDI</h3>
+
+Melody, bass, drums and optional polyphonic transcription with Basic Pitch, previewed as a note roll before export.
+
+
+</div>
 
 **Also inside:** BPM and key analysis, spectrum, phase and stereo width, a sound fingerprint across several files, beat analysis, vocal preparation, loops, a sample finder, an export centre, and a URL downloader built on `yt-dlp` and FFmpeg. Spotify is used for metadata only and never for audio.
 
