@@ -45,7 +45,7 @@ It is built as a product, with its own interface, its own type and its own motio
 
 <h3>Stems</h3>
 
-Local separation with <b>Hybrid Transformer Demucs v4</b>. Vocals, drums, bass and other, plus an instrumental derived by exact sample-wise sum. A synchronised multitrack player with mute, solo and volume, individual export and ZIP. Model weights are verified by SHA-256, progress is real, and a reconstruction check tells you how faithful the result is.<br /><br /><b>Six sources</b> (adding guitar and piano) are built and tested on a development branch and planned for v1.3.1. They are not in the current release.
+Local separation with <b>Hybrid Transformer Demucs v4</b>. Vocals, drums, bass and other, plus an instrumental derived by exact sample-wise sum. A synchronised multitrack player with mute, solo and volume, individual export and ZIP. Model weights are verified by SHA-256, progress is real, and a reconstruction check tells you how faithful the result is.<br /><br /><b>Six sources</b> (adding guitar and piano) arrived with v1.3.1; the piano is the least reliable source and the app says so.
 
 </div>
 
@@ -80,7 +80,7 @@ Melody, bass, drums and optional polyphonic transcription with Basic Pitch, prev
 
 </div>
 
-**Also inside:** BPM and key analysis, spectrum, phase and stereo width, a sound fingerprint across several files, beat analysis, vocal preparation, loops, a sample finder, an export centre, and a URL downloader built on `yt-dlp` and FFmpeg. Spotify is used for metadata only and never for audio.
+**Also inside:** BPM and key analysis, spectrum, phase and stereo width, a sound fingerprint across several files, beat analysis, vocal preparation, loops, a sample finder, an export centre, a URL downloader built on `yt-dlp` and FFmpeg (WAV, FLAC and ALAC at up to 24 bits), model downloads that resume where they stopped, and a voice and text assistant with on-demand local AI. Spotify is used for metadata only and never for audio.
 
 > [!NOTE]
 > The interface is currently in Spanish.
@@ -173,8 +173,8 @@ DIAVLOWAV checks for updates when it starts. Updates are downloaded with real pr
 
 | | |
 | :-- | :-- |
-| **Shipping** | Analysis, four-stem separation, mastering, audio to MIDI, model browser, signed updater. |
-| **Next, v1.3.1** | Six-stem separation, with higher-quality downloads that keep the source's real bit depth, a reworked tempo and key detector with confidence levels, and a redesigned download experience in progress. |
+| **Shipping** | Analysis with tempo and key detection that rates its own confidence, four- and six-source stem separation, mastering, audio to MIDI, a voice and text assistant with on-demand local AI, a model browser with resumable downloads, lossless music downloads at up to 24 bits, signed updater. |
+| **Next** | A redesigned download experience. |
 | **Mobile** | Android is in development; a debug build exists and is not released. iOS is planned. |
 
 Roadmap items describe direction, not dates.
