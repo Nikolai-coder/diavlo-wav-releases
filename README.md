@@ -80,7 +80,7 @@ Melody, bass, drums and optional polyphonic transcription with Basic Pitch, prev
 
 </div>
 
-**Also inside:** BPM and key analysis, spectrum, phase and stereo width, a sound fingerprint across several files, beat analysis, vocal preparation, loops, a sample finder, an export centre, a URL downloader built on `yt-dlp` and FFmpeg (WAV, FLAC and ALAC at up to 24 bits), model downloads that resume where they stopped, and a voice and text assistant with on-demand local AI. Spotify is used for metadata only and never for audio.
+**Also inside:** <b>Beat Lab</b> (prepare, autopsy, Beat DNA, loops, MIDI and a producer pack, all on one file), <b>Limpieza</b> (a fast PC and plugin cleaner: it maps your VST2, VST3, AAX and CLAP plugins and your DAW projects, removes junk only after you confirm, and runs Microsoft Defender scans), audio-reactive visuals, a comparison with a reference track, BPM and key analysis, spectrum, phase and stereo width, a sound fingerprint across several files, vocal preparation, a sample finder, an export centre, a URL downloader built on `yt-dlp` and FFmpeg (WAV, FLAC and ALAC at up to 24 bits), model downloads that resume where they stopped, and a voice and text assistant with on-demand local AI. Spotify is used for metadata only and never for audio.
 
 > [!NOTE]
 > The interface is currently in Spanish.
@@ -152,7 +152,7 @@ The updater payload is additionally signed with a minisign-compatible key, and t
 
 ## Updating
 
-DIAVLOWAV checks for updates when it starts. Updates are downloaded with real progress, verified against the signature, and installed in place. Your settings, projects, history and downloaded models are kept. You can also check by hand under Settings → Updates.
+DIAVLOWAV checks for updates when it opens and every 6 hours, quietly. A new version shows as a small pill in the title bar; it downloads in the background while you keep working, is verified against the signature, and installs only when you press **Reiniciar y actualizar** (you are warned if a job is still running). Your settings, projects, history and downloaded models are kept. You can also check by hand under Settings → Updates.
 
 <br />
 
@@ -173,8 +173,8 @@ DIAVLOWAV checks for updates when it starts. Updates are downloaded with real pr
 
 | | |
 | :-- | :-- |
-| **Shipping** | Analysis with tempo and key detection that rates its own confidence, four- and six-source stem separation, mastering, audio to MIDI, a voice and text assistant with on-demand local AI, a model browser with resumable downloads, lossless music downloads at up to 24 bits, signed updater. |
-| **Next** | A redesigned download experience. |
+| **Shipping** | Beat Lab, Limpieza (PC and plugin cleaner with Microsoft Defender scans), audio-reactive visuals, reference comparison, analysis with tempo and key detection that rates its own confidence, four- and six-source stem separation, mastering, audio to MIDI, a voice and text assistant with on-demand local AI, a model browser with resumable downloads, lossless music downloads at up to 24 bits, a signed updater that never interrupts you. |
+| **Next** | Projects that reopen exactly where you left them, with autosave and a job queue you can pause and prioritise; then a complete model manager. |
 | **Mobile** | Android is in development; a debug build exists and is not released. iOS is planned. |
 
 Roadmap items describe direction, not dates.
